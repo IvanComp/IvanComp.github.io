@@ -17,12 +17,15 @@
   </head>
   <body>
 
-      <header>
-          <div><img src="./assets/images/MyPhoto.jpg" style="width:180px;height: 180px;">
-          </div>
-        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-      </header>
+  <header style="display: flex; align-items: center;">
+      <div style="margin-right: 10px;">
+          <img src="./assets/images/MyPhoto.jpg" alt="Descrizione dell'immagine" style="width: 180px; height: 180px;">
+      </div>
+      <div>
+          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+          <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+      </div>
+  </header>
 
       <div></div>
 
