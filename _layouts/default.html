@@ -22,16 +22,19 @@
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
 
+      <div></div>
+
       <div id="banner">
         <span id="logo"></span>
 
         <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
         {% if site.show_downloads %}
           <div class="downloads">
-            <span>Downloads:</span>
+            <span>Links:</span>
             <ul>
-              <li><a href="{{ site.github.zip_url }}" class="button">ZIP</a></li>
-              <li><a href="{{ site.github.tar_url }}" class="button">TAR</a></li>
+                <li><a href="https://www.linkedin.com/in/ivan-compagnucci/" class="button">LinkedIn</a></li>
+              <li><a href="https://github.com/IvanComp" class="button">Github</a></li>
+              <li><a href="https://scholar.google.com/citations?user=pp6CqJoAAAAJ&hl=en" class="button">Scholar</a></li>
             </ul>
           </div>
         {% endif %}
@@ -43,13 +46,9 @@
       </nav>
       <section>
         {{ content }}
-
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+        <p><small>The Archive by Ivan Compagnucci is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</small></p>
       </footer>
     </div>
   </body>
