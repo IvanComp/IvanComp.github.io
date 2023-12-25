@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Ivan Compagnucci
-
 # About me
 
 _Hello Folks_!
