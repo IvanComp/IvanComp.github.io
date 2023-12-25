@@ -18,18 +18,13 @@
   <body>
 
   <header style="display: flex; align-items: center;">
-      <div style="margin-right: 50%;">
-          <img src="./assets/images/MyPhoto.jpg" alt="Descrizione dell'immagine" style="width: 150px; height: 180px;">
-      </div>
-      <div>
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
           <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-      </div>
   </header>
 
       <div></div>
 
-      <div id="banner">
+      <div style="margin-top: 100px" id="banner">
         <span id="logo"></span>
 
         <a href="./assets/file/Scientific_CV_Ivan_Compagnucci.pdf" download="Scientific_CV_Ivan_Compagnucci.pdf" class="button fork"><strong>CV</strong></a>
@@ -52,6 +47,7 @@
         {{ content }}
       </section>
       <footer>
+          <img src="./assets/images/MyPhoto.jpg" alt="Descrizione dell'immagine" style="width: 150px; height: 180px;">
         <p><small>The Archive by Ivan Compagnucci is licensed under a CC BY-NC 4.0.</small></p>
       </footer>
     </div>
