@@ -6,6 +6,8 @@ layout: default
 
 # About me
 
+![MyPhoto](assets/images/MyPhoto.jpg)
+
 _Hello Folks_!
 
 TODO
@@ -27,3 +29,4 @@ TODO
 
 # Awards
 
+![BPM23](assets/images/bpmnaward.jpeg)
