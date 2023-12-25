@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+# Ivan Compagnucci
 
 # About me
 
@@ -8,13 +9,14 @@ _Hello Folks_!
 
 TODO
 
-# **Research Works**
+# Research
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-# Links
+
+# Research
 
 > This is a blockquote following a header.
 >
