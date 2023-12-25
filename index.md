@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 # Ivan Compagnucci
 
 # About me
