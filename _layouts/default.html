@@ -21,7 +21,7 @@
 
   <header>
           <h1>Ivan Compagnucci</h1>
-          <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+          <p>{{ page.description | default: site.description | default: site.github.project_tagline }} <i class="fab fa-orcid"></i></p>
   </header>
 
       <div></div>
@@ -29,7 +29,7 @@
       <div id="banner">
 
 
-        <a href="./assets/file/Scientific_CV_Ivan_Compagnucci.pdf" download="Scientific_CV_Ivan_Compagnucci.pdf" class="button fork"><strong>CV</strong></a>
+        <a href="./assets/file/Scientific_CV_Ivan_Compagnucci.pdf" download="Scientific_CV_Ivan_Compagnucci.pdf" class="button fork"><i class="fas fa-file-download"></i> <strong>Download my CV</strong></a>
         {% if site.show_downloads %}
           <div class="downloads">
               <ul>
@@ -41,6 +41,9 @@
                   </li>
                   <li>
                       <a href="https://scholar.google.com/citations?user=pp6CqJoAAAAJ&hl=en" class="button"><i class="fas fa-graduation-cap"></i> Scholar</a>
+                  </li>
+                  <li>
+                      <a href="https://orcid.org/0000-0002-1991-0579" class="button"><i class="fab fa-orcid"></i> Orcid</a>
                   </li>
               </ul>
           </div>
