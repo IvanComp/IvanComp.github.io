@@ -1,4 +1,6 @@
 <!doctype html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEX/ndF5t6P4n2P/GkR8R+fnQb1a1V2t7QSl" crossorigin="anonymous">
+
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="utf-8">
@@ -30,11 +32,18 @@
         <a href="./assets/file/Scientific_CV_Ivan_Compagnucci.pdf" download="Scientific_CV_Ivan_Compagnucci.pdf" class="button fork"><strong>CV</strong></a>
         {% if site.show_downloads %}
           <div class="downloads">
-            <ul>
-                <li><span id="logo"></span><a href="https://www.linkedin.com/in/ivan-compagnucci/" class="button">LinkedIn</a></li>
-              <li><a href="https://github.com/IvanComp" class="button">Github</a></li>
-              <li><a href="https://scholar.google.com/citations?user=pp6CqJoAAAAJ&hl=en" class="button">Scholar</a></li>
-            </ul>
+              <ul>
+                  <li>
+                      <span id="logo"></span>
+                      <a href="https://www.linkedin.com/in/ivan-compagnucci/" class="button"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                  </li>
+                  <li>
+                      <a href="https://github.com/IvanComp" class="button"><i class="fab fa-github"></i> Github</a>
+                  </li>
+                  <li>
+                      <a href="https://scholar.google.com/citations?user=pp6CqJoAAAAJ&hl=en" class="button"><i class="fas fa-graduation-cap"></i> Scholar</a>
+                  </li>
+              </ul>
           </div>
         {% endif %}
       </div><!-- end banner -->
@@ -48,7 +57,7 @@
       </section>
     </div>
   <footer>
-      <img src="./assets/images/MyPhoto.jpg" alt="Descrizione dell'immagine" style="width: 170px; height: 160px;">
+      <img src="./assets/images/MyPhoto.jpg" style="width: 170px; height: 160px;">
       <p><small>The Archive by Ivan Compagnucci is licensed under a CC BY-NC 4.0.</small></p>
   </footer>
   </body>
