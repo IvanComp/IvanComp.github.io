@@ -16,6 +16,8 @@ TODO
 
 # Software
 
+Here you can find the most important software developed during my career.
+
 ### BPMN Inspector
 
 **BPMN Inspector**, is a web application designed to streamline the inspection process of BPMN models. The inspection process effectively distinguishes various
