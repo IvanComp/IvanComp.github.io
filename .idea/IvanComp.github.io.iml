@@ -6,5 +6,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="font-awesome" level="application" />
+    <orderEntry type="library" name="408c14cff3" level="application" />
   </component>
 </module>
