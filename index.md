@@ -24,6 +24,8 @@ non-English models. In addition, BPMN Inspector provides detailed insights into
 the collection of models by investigating the usage of BPMN notation elements,
 their combinations, syntactic violations of the standard and the adherence to established good modeling practices.
 
+![BPMNInspector](assets/images/bpmninspector.jpg)
+
 [Repository Link](https://github.com/PROSLab/BPMN-Inspector) 
 
 ### BPMN Grader
@@ -32,6 +34,8 @@ their combinations, syntactic violations of the standard and the adherence to es
 **BPMN Grader** is a Java tool developed to assist teachers in correcting BPMN diagrams. The tool enables annotations to be added to images of BPMN models, indicating errors made by students while modeling the process. The Annotations that
 can be included in the model are defined by a framework which includes common
 errors when modeling BPMN diagrams. The aim is to provide graphic and immediate feedback to the student, improving their learning in BPMN process modeling.
+
+![BPMNGrader](assets/images/bpmngrader.png)
 
 [Repository Link](https://github.com/IvanComp/BPMN-Grader) 
 
