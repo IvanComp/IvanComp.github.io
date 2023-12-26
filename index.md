@@ -26,7 +26,7 @@ non-English models. In addition, BPMN Inspector provides detailed insights into
 the collection of models by investigating the usage of BPMN notation elements,
 their combinations, syntactic violations of the standard and the adherence to established good modeling practices.
 
-![BPMNInspector](assets/images/bpmninspector.jpg)
+![BPMNInspector](assets/images/bpmninspector.png)
 
 [Repository Link](https://github.com/PROSLab/BPMN-Inspector) 
 
