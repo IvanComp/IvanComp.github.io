@@ -42,7 +42,7 @@ Here you can find the research papers to request the .pdf file send me a request
   * Vemuri, P., Poelmans, S., Compagnucci, I., & Snoeck, M. (2023). **Using formative assessment and
     feedback to train novice modelers in business process modeling**. In Proceedings of the 26th International
     Conference on Model Driven Engineering Languages and Systems: Companion Proceedings, MODELS 2023,
-    Västerås, Sweden, October 1-6, 2023 (pp. 449–458). î doi:10.1109/MODELS-C59198.2023.00079
+    Västerås, Sweden, October 1-6, 2023 (pp. 449–458). doi:10.1109/MODELS-C59198.2023.00079
 
   * Compagnucci, I., Corradini, F., Fornari, F., & Re, B. (2021). **Trends on the usage of BPMN 2.0 from
     publicly available repositories**. In Perspectives in business informatics research - 20th international
