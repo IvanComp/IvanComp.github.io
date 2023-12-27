@@ -14,42 +14,45 @@ aiming to achieve a synergy that enables continuous technology innovation.
 
 # Research
 
-Here you can find the research papers to request the .pdf file send me a request via email or on ResearchGate.
+Here you can find the research papers to request the .pdf file send me a request via email or on [ResearchGate](https://www.researchgate.net/profile/Ivan-Compagnucci) .
 
 ## Journal Paper 
 
-*   Compagnucci, I., Corradini, F., Fornari, F., & Re, B. (2023a). A Study on the Usage of the BPMN
-    Notation for Designing Process Collaboration, Choreography, and Conversation Models. Business &
-    Information Systems Engineering, In Press
-*   Compagnucci, I., Corradini, F., Fornari, F., Polini, A., Re, B., & Tiezzi, F. (2022). A systematic literature
-    review on IoT-aware business process modeling views, requirements and notations. Software and
+*   Compagnucci, I., Corradini, F., Fornari, F., & Re, B. (2023a). **A Study on the Usage of the BPMN
+    Notation for Designing Process Collaboration, Choreography, and Conversation Models**. Business &
+    Information Systems Engineering, In Press.
+
+*   Compagnucci, I., Corradini, F., Fornari, F., Polini, A., Re, B., & Tiezzi, F. (2022). **A systematic literature
+    review on IoT-aware business process modeling views, requirements and notations**. Software and
     Systems Modeling, 14(1), 1–36.
 
 ## Conference Paper
 
-*   Compagnucci, I., Corradini, F., Fornari, F., & Re, B. (2023b). BPMN inspector: A tool for extracting
-    features from BPMN models. In Proceedings of the Best Dissertation Award, Doctoral Consortium, and
+*   Compagnucci, I., Corradini, F., Fornari, F., & Re, B. (2023b). **BPMN inspector: A tool for extracting
+    features from BPMN models**. In Proceedings of the Best Dissertation Award, Doctoral Consortium, and
     Demonstration & Resources Forum at BPM 2023 co-located with 21st International Conference on Business
     Process Management (BPM 2023), Utrecht, The Netherlands, September 11th to 15th, 2023 (Vol. 3469,
     pp. 122–126). CEUR-WS.org.
-  * Compagnucci, I., Snoeck, M., & Asensio, E. S. (2023). Supporting digital twins systems integrating the
-    merode approach. In Proceedings of the 26th International Conference on Model Driven Engineering
+
+  * Compagnucci, I., Snoeck, M., & Asensio, E. S. (2023). **Supporting digital twins systems integrating the
+    MERODE approach**. In Proceedings of the 26th International Conference on Model Driven Engineering
     Languages and Systems: Companion Proceedings, MODELS 2023, Västerås, Sweden, October 1-6, 2023
     (pp. 449–458). doi:10.1109/MODELS-C59198.2023.00079
-  * Vemuri, P., Poelmans, S., Compagnucci, I., & Snoeck, M. (2023). Using formative assessment and
-    feedback to train novice modelers in business process modeling. In Proceedings of the 26th International
+
+  * Vemuri, P., Poelmans, S., Compagnucci, I., & Snoeck, M. (2023). **Using formative assessment and
+    feedback to train novice modelers in business process modeling**. In Proceedings of the 26th International
     Conference on Model Driven Engineering Languages and Systems: Companion Proceedings, MODELS 2023,
     Västerås, Sweden, October 1-6, 2023 (pp. 449–458). î doi:10.1109/MODELS-C59198.2023.00079
-  * Compagnucci, I., Corradini, F., Fornari, F., & Re, B. (2021). Trends on the usage of BPMN 2.0 from
-    publicly available repositories. In Perspectives in business informatics research - 20th international
+
+  * Compagnucci, I., Corradini, F., Fornari, F., & Re, B. (2021). **Trends on the usage of BPMN 2.0 from
+    publicly available repositories**. In Perspectives in business informatics research - 20th international
     conference on business informatics research, BIR 2021, vienna, austria, september 22-24, 2021. (Vol. 430,
     pp. 84–99). doi:10.1007/978-3-030-87205-2\_6
-  * Compagnucci, I., Corradini, F., Fornari, F., Polini, A., Re, B., & Tiezzi, F. (2020). Modelling notations for
-    iot-aware business processes: A systematic literature review. In Business Process Management Workshops
+
+  * Compagnucci, I., Corradini, F., Fornari, F., Polini, A., Re, B., & Tiezzi, F. (2020). **Modelling notations for
+    iot-aware business processes: A systematic literature review**. In Business Process Management Workshops
     BPM 2020 International Workshops, Seville, Spain, September 13-18, 2020. (Vol. 397, pp. 108–121).
     doi:10.1007/978-3-030-66498-5\_9
-
-
 
 # Software
 
