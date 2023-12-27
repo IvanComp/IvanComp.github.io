@@ -14,7 +14,7 @@ aiming to achieve a synergy that enables continuous technology innovation.
 
 # Research
 
-Here you can find the research papers to request the .pdf file send me a request via email or on [ResearchGate](https://www.researchgate.net/profile/Ivan-Compagnucci) .
+Here you can find the research papers to request the .pdf file send me a request via email or on [ResearchGate](https://www.researchgate.net/profile/Ivan-Compagnucci).
 
 ## Journal Paper 
 
