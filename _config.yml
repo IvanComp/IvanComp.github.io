@@ -3,3 +3,4 @@ description: Ph.D. Candidate in Computer Science & Mathematics
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
+favicon: .\_includes\favicon-16x16.png
