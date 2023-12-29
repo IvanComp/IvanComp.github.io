@@ -95,3 +95,9 @@ practitioners and educators" in the [BPM Newsletter of November 2023](https://bp
 ![BPM23](assets/images/bpmnaward.jpeg)
 
 # Interests
+
+TODO
+
+## Books
+
+## Podcast
