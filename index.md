@@ -18,9 +18,10 @@ Here you can find the research papers to request the .pdf file send me a request
 
 ## Journal Paper 
 
-*   Compagnucci, I., Corradini, F., Fornari, F., & Re, B. (2023a). **A Study on the Usage of the BPMN
+*   Compagnucci, I., Corradini, F., Fornari, F., & Re, B. (2024). **A Study on the Usage of the BPMN
     Notation for Designing Process Collaboration, Choreography, and Conversation Models**. Business &
-    Information Systems Engineering, In Press.
+    Information Systems Engineering, (Vol. 66, pp. 43-66). Springer. on the special issue "The Impact of the Business Process Model and Notation."
+
 
 *   Compagnucci, I., Corradini, F., Fornari, F., Polini, A., Re, B., & Tiezzi, F. (2022). **A systematic literature
     review on IoT-aware business process modeling views, requirements and notations**. Software and
