@@ -57,7 +57,6 @@ Here you can find the research papers to request the .pdf file send me a request
 
 # Software
 
-Here you can find the most important software developed during my career.
 
 ### BPMN Inspector
 
@@ -70,6 +69,15 @@ their combinations, syntactic violations of the standard and the adherence to es
 ![BPMNInspector](assets/images/bpmninspector.png)
 
 [Repository Link](https://github.com/PROSLab/BPMN-Inspector) 
+
+### ADAPTIVE-SHADOW
+(_In Development_)
+
+**ADAPTIVE SHADOW** is a Java tool developed to optimize IoT-Enhanced Business Processes.
+![BPMNGrader](assets/images/logo.png)
+
+[Repository Link](https://github.com/IvanComp/ADAPTIVE-SHADOW)
+
 
 ### BPMN Grader
 (_In Development_)
@@ -84,8 +92,6 @@ errors when modeling BPMN diagrams. The aim is to provide graphic and immediate 
 
 # Awards
 
-Here you can find the awards obtained during my career.
-
 ## BPM 2023 Best Paper Award of the Demonstrations and Resources Forum
 **BPMN Inspector** was awarded at the 21th International Conference on Business Process Management September 11-15 in: [BPM 2023 Best Paper Award of the Demonstration and Resources Forum ](https://bpm-conference.org/awards/) with the paper entitled: BPMN Inspector: A Tool for Extracting Features from BPMN Models. 
 
@@ -94,11 +100,3 @@ practitioners and educators" in the [BPM Newsletter of November 2023](https://bp
 ). 
 
 ![BPM23](assets/images/bpmnaward.jpeg)
-
-# Interests
-
-TODO
-
-## Books
-
-## Podcast
