@@ -1,4 +1,6 @@
-[![trophy](https://github-profile-trophy.vercel.app/?username=sammorozov&title=Stars,Followers,Commits,Repositories,MultipleLang,PullRequest&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+<p align="center">
+  [![trophy](https://github-profile-trophy.vercel.app/?username=sammorozov&title=Stars,Followers,Commits,Repositories,MultipleLang,PullRequest&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+</p>
 
 <p align="center">
   <img width="800" height="220" src="https://streak-stats.demolab.com?user=IvanComp&theme=dark&hide_border=true&border_radius=5&card_width=800">
