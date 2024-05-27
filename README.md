@@ -1,8 +1,8 @@
-<p align="center">
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=ivancomp&title=Stars,Followers,Commits,Repositories,MultipleLang,PullRequest&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
-
-</p>
+<center>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=ivancomp&title=Stars,Followers,Commits,Repositories,Issues,MultipleLang,PullRequest,Experience&theme=onedark" alt="GitHub Trophies" />
+  </a>
+</center>
 
 <p align="center">
   <img width="800" height="220" src="https://streak-stats.demolab.com?user=IvanComp&theme=dark&hide_border=true&border_radius=5&card_width=800">
