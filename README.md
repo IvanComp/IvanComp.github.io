@@ -1,8 +1,8 @@
-<p align="center">
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=ivancomp&title=Stars,Followers,Commits,Repositories,MultipleLang,PullRequest&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
-
-</p>
+<center>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=ivancomp&title=Stars,Followers,Commits,Repositories,Issues,MultipleLang,PullRequest,Experience&theme=onedark" alt="GitHub Trophies" />
+  </a>
+</center>
 
 <p align="center">
   <img width="800" height="220" src="https://streak-stats.demolab.com?user=IvanComp&theme=dark&hide_border=true&border_radius=5&card_width=800">
@@ -26,7 +26,7 @@ TODO
 <div>
 
 ### Languages:
-| Python3 | C | JS | Java |
+| Python3 | C | JS | Java | 
 |----------|----------|----------|-----|
 |  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python"  alt="Python" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C"  alt="C" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" title="Java" alt="Java" width="55" height="55"/>|
 
@@ -47,8 +47,8 @@ TODO
   
 ### Environments, Testing, Other:
 
-| nodejs | Git | Docker | Pytest | Swagger | Postman | Virtual Box| HardHat |
-|----------|----------|----------|----------|----------|----------|----------|----------|
-|<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="nodejs" alt="NodeJS" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="Docker" alt="Docker" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/pytest/pytest-original-wordmark.svg" title="pytest" alt="pytest" width="55" height="55"/>|  <img src="https://github.com/devicons/devicon/blob/master/icons/swagger/swagger-original-wordmark.svg" title="Swagger" alt="Swagger" width="55" height="55"/>|  <img src="https://github.com/devicons/devicon/blob/master/icons/postman/postman-original-wordmark.svg" title="Postman" alt="Postman" width="55" height="55"/>|<img src="https://banner2.cleanpng.com/20190501/xvt/kisspng-computer-icons-virtualbox-portable-network-graphic-virtualbox-icon-of-line-style-available-in-svg-5cca247f73f9e3.6112721115567514874751.jpg" title="Postman" alt="Postman" width="80" height="55"/>| <img src="https://github.com/devicons/devicon/blob/master/icons/hardhat/hardhat-original.svg" title="Swagger" alt="Swagger" width="55" height="55"/>|
+| Spring | nodejs | Git | Docker | Postman | Virtual Box|
+|----------|----------|----------|----------|----------|----------|
+| <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original.svg" title="nodejs" alt="NodeJS" width="55" height="55"/> |<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="nodejs" alt="NodeJS" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="Docker" alt="Docker" width="55" height="55"/>| <img src="https://github.com/devicons/devicon/blob/master/icons/postman/postman-original-wordmark.svg" title="Postman" alt="Postman" width="55" height="55"/>|<img src="https://banner2.cleanpng.com/20190501/xvt/kisspng-computer-icons-virtualbox-portable-network-graphic-virtualbox-icon-of-line-style-available-in-svg-5cca247f73f9e3.6112721115567514874751.jpg" title="Postman" alt="Postman" width="80" height="55"/>|
 
 
