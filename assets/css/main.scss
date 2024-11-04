@@ -16,6 +16,7 @@
 @import "vendor/susy/susy";
 @import "reset";
 @import "base";
+@import "minimal-mistakes/skins/default";
 @import "minimal-mistakes/skins/{{site.minimal_mistakes_skin | default: 'default' }}";
 @import "utilities";
 @import "animations";
