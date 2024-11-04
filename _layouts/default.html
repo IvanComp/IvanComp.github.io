@@ -1,63 +1,31 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
 <!doctype html>
-<script src="https://kit.fontawesome.com/408c14cff3.js" crossorigin="anonymous"></script>
-
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    {% include head-custom.html %}
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
+
   <body>
 
-  <header>
-          <h1 style="color: #F1E700">Ivan Compagnucci</h1>
-          <p style="color: #F1E700">{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-  </header>
-      <div></div>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-      <div style="border:none; background: linear-gradient(to right, #007687, #ffff00);" id="banner">
-        <a href="./assets/file/Scientific_CV_Ivan_Compagnucci.pdf" download="Scientific_CV_Ivan_Compagnucci.pdf" class="button fork"><i class="fas fa-file-download"></i> <strong>Download my CV</strong></a>
-        {% if site.show_downloads %}
-          <div class="downloads">
-              <ul>
-                  <li>
-                      <a href="https://www.linkedin.com/in/ivan-compagnucci/" class="button"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                  </li>
-                  <li>
-                      <a href="https://github.com/IvanComp" class="button"><i class="fab fa-github"></i> Github</a>
-                  </li>
-                  <li>
-                      <a href="https://scholar.google.com/citations?user=pp6CqJoAAAAJ&hl=en" class="button"><i class="fas fa-graduation-cap"></i> Scholar</a>
-                  </li>
-                  <li>
-                      <a href="https://orcid.org/0000-0002-1991-0579" class="button"><i class="fab fa-orcid"></i> Orcid</a>
-                  </li>
-              </ul>
-          </div>
-        {% endif %}
-      </div><!-- end banner -->
+    {{ content }}
 
-    <div class="wrapper">
-        <footer style="top:28%; left:36%; text-align:left;bottom:0px">
-            <img src="./assets/images/MyPhoto.png" style="width: 200px; height: 200px;">
-            <p style="left:4%;position:relative;text-align: center"><small>The Archive by Ivan Compagnucci is licensed under a CC BY-NC 4.0.</small></p>
-        </footer>
-
-      <nav style="top:196px">
-        <ul></ul>
-      </nav>
-      <section>
-        {{ content }}
-      </section>
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     </div>
+
+    {% include scripts.html %}
+
   </body>
 </html>
