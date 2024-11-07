@@ -5,8 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
-#theme: minimal-mistakes-jekyll
-#minimal_mistakes_skin: "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# theme: minimal-mistakes-jekyll
+# minimal_mistakes_skin: "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Basic Site Settings
 locale                   : "en-US"
@@ -30,7 +30,7 @@ author:
   location         : "Italy"
   employer         : "Gran Sasso Science Institute"
   uri              : # URL
-  email            : "ivan.compagnucci@gmail.com" 
+  email            : "ivan.compagnucci@gssi.it" 
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=pp6CqJoAAAAJ&hl=en"

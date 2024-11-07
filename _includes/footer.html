@@ -1,19 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2566">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    span.s2 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">© {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com/"><span class="s2">Jekyll</span></a> &amp; <a href="https://github.com/academicpages/academicpages.github.io"><span class="s2">AcademicPages</span></a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"><span class="s2">Minimal Mistakes</span></a>.</span></p>
-<p class="p1"><span class="s1">Site last updated {{ "now" | date: '%Y-%m-%d' %}}</span></p>
-</body>
-</html>
+<div class="page__footer-follow">
+  <div class="page__footer-copyright">
+    &copy; {{ "now" | date: '%Y' }} Ivan Compagnucci, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> & <a href="https://github.com/academicpages/academicpages.github.io" rel="nofollow">Academic Pages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
+    Site last updated: {{ site.data.last_commit.last_updated }}
+  </div>
+</div>
+
