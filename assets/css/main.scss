@@ -41,3 +41,7 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.page__footer-copyright strong {
+    font-size: 1.1em; /* Aumenta leggermente la dimensione del font */
+  }
