@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! 
-
-I’m Ivan Compagnucci, a PostDoctoral Researcher at Gran Sasso Science Institute.
+Hello! I’m Ivan Compagnucci, a PostDoctoral Researcher at Gran Sasso Science Institute.
 
 I received my M.Sc. in Computer Science (May 2020) and my Ph.D. in Computer Science and Mathematics (July 2024) from the University of Camerino. My doctoral disseration proposed an approach to support IoT-Enhanced Business Processes with the Digital Twin paradigm.
 

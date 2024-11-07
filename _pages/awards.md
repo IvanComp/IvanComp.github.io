@@ -7,7 +7,9 @@ redirect_from:
   - /awards.html
 ---
 
-# Best Paper Award of the Demonstrations and Resources Forum (BPM'23)
+## 2023
+
+## ▸ Best Paper Award of the Demonstrations and Resources Forum (BPM'23)
 
 **BPMN Inspector** was awarded at the 21th International Conference on Business Process Management September 11-15 in: [BPM 2023 Best Paper Award of the Demonstration and Resources Forum ](https://bpm-conference.org/awards/) with the paper entitled: BPMN Inspector: A Tool for Extracting Features from BPMN Models. 
 
