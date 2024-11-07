@@ -3,7 +3,7 @@ name: Update Last Commit Date and Build Site
 on:
   push:
     branches:
-      - ["master"] 
+      - "master"
 
 jobs:
   update-date:
@@ -23,9 +23,9 @@ jobs:
           gem install bundler
           bundle install
 
-      - name: Update last commit date
+      - name: Update last commit date in CET
         run: |
-          echo "last_updated: \"$(git log -1 --format='%cd' --date=format-local:%d\ %B\ %Y\ %H:%M\ \(CET\))\"" > _data/last_commit.yml
+          TZ="Europe/Paris" echo "last_updated: \"$(git log -1 --format='%cd' --date=format-local:%d\ %B\ %Y\ %H:%M\ \(CET\))\"" > _data/last_commit.yml
 
       - name: Commit and push updated date
         run: |
