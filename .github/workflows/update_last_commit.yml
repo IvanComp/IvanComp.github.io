@@ -25,7 +25,7 @@ jobs:
 
       - name: Update last commit date
         run: |
-          echo "last_updated: \"$(git log -1 --format="%cd" --date=iso)\"" > _data/last_commit.yml
+          echo "last_updated: \"$(git log -1 --format='%cd' --date=format-local:%d\ %B\ %Y\ %H:%M\ \(CET\))\"" > _data/last_commit.yml
 
       - name: Commit and push updated date
         run: |
