@@ -25,8 +25,9 @@ jobs:
 
       - name: Update last commit date
         run: |
-          echo "last_updated: \"$(git log -1 --format='%cd' --date=format-local:%d\ %B\ %Y\ %H:%M\ \(CET\))\"" > _data/last_commit.yml
-
+          LAST_COMMIT_DATE=$(git log -1 --format='%cd' --date=format-local:"%d %B %Y %H:%M (UTC)")
+          echo "last_updated: \"$LAST_COMMIT_DATE\"" > _data/last_commit.yml
+          
       - name: Commit and push updated date
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
