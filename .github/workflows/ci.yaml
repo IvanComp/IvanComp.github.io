@@ -2,21 +2,40 @@ on:
   push:
   pull_request:
     types: [opened, synchronize]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Build and Test
     steps:
       - uses: actions/checkout@v2
+
+      - name: Update last commit date
+        run: |
+          echo "last_updated: \"$(git log -1 --format='%cd' --date=format-local:%d\ %B\ %Y\ %H:%M\ \(UTC\))\"" > _data/last_commit.yml
+
+      - name: Commit and push updated date
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+          git add _data/last_commit.yml
+          git commit -m "Update last commit date" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0
           bundler-cache: true
+
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install
+
       - name: Build site
         run: bundle exec jekyll build
+
       - name: Test site
-        run: bundle exec jekyll doctor 
+        run: bundle exec jekyll doctor
