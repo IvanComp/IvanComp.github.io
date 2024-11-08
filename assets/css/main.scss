@@ -45,3 +45,51 @@
 .page__footer-copyright strong {
     font-size: 1.1em;
   }
+
+.conference-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #196ca3; /* colore blu per le conference */
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.journal-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #c32b72; /* colore rosso per i journal */
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.data-icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #885522; /* colore rosso per i journal */
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.n-label {
+  color: #808080; /* Colore grigio */
+  font-size: 0.8em; /* Riduce la dimensione del testo */
+  margin-right: 5px; /* Spaziatura a destra */
+}
+
+.custom-button {
+  background-color: #d3d3d3; /* Sostituisci con il colore grigio sporco */
+  color: #3a3a3a; /* Sostituisci con il colore del nome nel footer */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #c0c0c0; /* Colore leggermente più scuro per l'hover */
+}

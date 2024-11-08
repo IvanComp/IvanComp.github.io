@@ -36,7 +36,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=pp6CqJoAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-1991-0579"
-  semantic         : "https://www.semanticscholar.org/author/Ivan-Compagnucci/2047183521"
+  #semantic         : "https://www.semanticscholar.org/author/Ivan-Compagnucci/2047183521"
   dblp             : "https://dblp.org/pid/283/4717.html"
   pubmed           : #
   researchgate     : "https://www.researchgate.net/profile/Ivan-Compagnucci"
