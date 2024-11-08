@@ -23,4 +23,5 @@ main:
   - title: "Conference Map"
     url: /conferencemap/  
 
- 
+  - title: "Blog"
+    url: /blog/ 
