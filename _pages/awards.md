@@ -1,5 +1,6 @@
 ---
-permalink: /awards
+layout: single
+permalink: /awards/
 title: "Awards"
 author_profile: false
 redirect_from: 
@@ -17,73 +18,93 @@ The contribution was mentioned for its noteworthy "potential impact on BPM
 practitioners and educators" in the [BPM Newsletter of November 2023](https://bpm-conference.org/assets/docs/newsletter/BPM-newsletter-2023-11.pdf
 ). 
 
-<div class="slideshow-container">
+<div class="slideshow-container" style="width:80%;">
 
-  <!-- Prima immagine -->
   <div class="mySlides fade">
-    <img src="../files/awards/2023/bpmnaward.jpeg" style="width:100%">
+    <img src="../files/awards/2023/bpmnaward.jpeg" style="width:100%; border-radius: 10px;">
   </div>
 
-  <!-- Seconda immagine -->
   <div class="mySlides fade">
-    <img src="../files/awards/2023/BPM23AwardCertificate.jpg" style="width:100%">
+    <img src="../files/awards/2023/BPM23AwardCertificate.jpg" style="width:100%; border-radius: 10px;">
   </div>
 
+  <!-- Controlli sinistro e destro -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 
-<!-- Controlli per cambiare immagine -->
-<div style="text-align:center">
+<div style="text-align:center; margin-top: 10px;">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
 </div>
 
 <style>
-/* CSS per lo slideshow */
 .slideshow-container {
   position: relative;
-  max-width: 100%;
+  max-width: 80%;
   margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .mySlides {
   display: none;
 }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+img {
+  vertical-align: middle;
+  border-radius: 10px;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-/* Dot indicators */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 .dot {
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  cursor: pointer;
 }
 
 .active, .dot:hover {
   background-color: #717171;
 }
+
+.fade {
+  animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
 </style>
 
 <script>
-// JavaScript per far cambiare automaticamente le immagini
 let slideIndex = 0;
 showSlides();
 
@@ -102,5 +123,14 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 7000); 
+}
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  slideIndex = n;
+  showSlides();
 }
 </script>
