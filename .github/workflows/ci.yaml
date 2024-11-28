@@ -6,15 +6,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build and Deploy
+    name: Build and Test
     steps:
       - uses: actions/checkout@v2
 
-      - name: Esegui lo script last_commit.sh
-        run: bash _data/last_commit.sh
-
-      - name: Verifica il contenuto di last_commit.yml
-        run: cat _data/last_commit.yml
+      - name: Update last commit date
+        run: |
+           echo "last_updated: \"$(date '+%d %B %Y %H:%M (UTC)')\"" > _data/last_commit.yml
 
       - name: Commit and push updated date
         run: |
@@ -39,8 +37,5 @@ jobs:
       - name: Build site
         run: bundle exec jekyll build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+      - name: Test site
+        run: bundle exec jekyll doctor
