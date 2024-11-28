@@ -2,7 +2,6 @@
 layout: single
 permalink: /awards/
 title: "Awards"
-author_profile: false
 redirect_from: 
   - /awards/
   - /awards.html

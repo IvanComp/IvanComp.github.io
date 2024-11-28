@@ -31,18 +31,19 @@ Languages and Systems: Companion Proceedings, MODELS-C 2023, Västerås, Sweden,
 <br>
 ([Link](https://ieeexplore.ieee.org/abstract/document/10350700){:target="_blank"})
 
-<span class="n-label">[c4]</span> <span class="conference-icon"></span> Vemuri, P., Poelmans, S., **Compagnucci, I.**, & Snoeck, M. (2023). Using formative assessment and feedback to train novice modelers in business process modeling. In Proceedings of the 26th International
+<span class="n-label">[c4]</span> <span class="conference-icon"></span> Vemuri, P., Poelmans, S., **Compagnucci, I.**, & Snoeck, M. (2023). Using Formative Assessment and Feedback to Train Novice Modelers in Business Process Modeling. In Proceedings of the 26th International
 Conference on Model Driven Engineering Languages and Systems: Companion Proceedings, MODELS-C 2023, Västerås, Sweden, October 1-6, (pp.449–458).
 <br>
 ([Link](https://ieeexplore.ieee.org/abstract/document/10350391){:target="_blank"})
 
-<span class="n-label">[c3]</span> <span class="conference-icon"></span> **Compagnucci, I.**, Corradini, F., Fornari, F., & Re, B. (2023). BPMN inspector: A tool for extracting features from BPMN models. In Proceedings of the Best Dissertation Award, Doctoral Consortium, and
+<span class="n-label">[c3]</span> <span class="conference-icon"></span> **Compagnucci, I.**, Corradini, F., Fornari, F., & Re, B. (2023). BPMN inspector: A tool for Extracting Features from BPMN Models. In Proceedings of the Best Dissertation Award, Doctoral Consortium, and
 Demonstration & Resources Forum at BPM 2023 co-located with 21st International Conference on Business Process Management (BPM 2023), Utrecht, The Netherlands, September 11th to 15th, (Vol. 3469,pp. 122–126). CEUR-WS.org. 
+🏆 [BPM 2023 Best Paper Award of the Demonstrations and Resources Forum](https://ivancomp.github.io/awards/)
 <br>
 ([PDF](https://ceur-ws.org/Vol-3469/paper-22.pdf){:target="_blank"})
 
-<span class="n-label">[c2]</span> <span class="conference-icon"></span>  **Compagnucci, I.**, Corradini, F., Fornari, F., & Re, B. (2021). Trends on the usage of BPMN 2.0 from publicly available repositories. In Perspectives in business informatics research - 20th international
-conference on business informatics research, BIR 2021, vienna, austria, september 22-24, 2021. (Vol. 430,pp. 84–99).
+<span class="n-label">[c2]</span> <span class="conference-icon"></span>  **Compagnucci, I.**, Corradini, F., Fornari, F., & Re, B. (2021). Trends on the Usage of BPMN 2.0 from Publicly Available Repositories. In Perspectives in Business Informatics Research - 20th International
+Conference on Business Informatics Research, BIR 2021, Vienna, Austria, September 22-24, 2021. (Vol. 430,pp. 84–99).
 <br>
 ([Link](https://link.springer.com/chapter/10.1007/978-3-030-87205-2_6){:target="_blank"})
 
