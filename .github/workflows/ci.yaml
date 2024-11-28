@@ -12,7 +12,7 @@ jobs:
 
       - name: Update last commit date
         run: |
-           echo "last_updated: \"$(date '+%d %B %Y %H:%M (UTC)')\"" > _data/last_commit.yml
+           echo "last_updated: \"$(date --date='1 hour' '+%d %B %Y %H:%M (CET)')\"" > _data/last_commit.yml
 
       - name: Commit and push updated date
         run: |
