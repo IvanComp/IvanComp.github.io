@@ -4,7 +4,7 @@ permalink: /publications/
 layout: single
 ---
 
-### Journals
+## Journals
 
 <span class="journal-icon"></span> Fornari, F., **Compagnucci, I.**, De Donato, M. C., Bertrand, Y., Beyel, H. H., Carrión, E., Franceschetti, M., Groher, W., Grüger, J., Kilic, E., Koschmider, A., Leotta, F., Li, C.-Y., Lugaresi, G., Malburg, L., Mangler, J., Mecella, M., Pastor, O., Riss, U., Seiger, R., Serral, E., Torres, V., Valderas, P. (2024) "Digital Twins of Business Processes: A Research Manifesto". _Internet of Things_ (Under Review)
 <br>
@@ -19,7 +19,7 @@ Systems Engineering_, 66, 43–66.
 <br>
 [[Link](https://link.springer.com/article/10.1007/s10270-022-01049-2){:target="_blank"}]
 
-### Conferences
+## Conferences
 
 <span class="conference-icon"></span> **Compagnucci, I.**, Re, B., Snoeck, M., & Asensio, E. S. (2024). "A Digital Process Twin Conceptual Architecture for What-If Process Analysis" In Enterprise Design, Operations, and Computing. EDOC 2024
 Workshops, Wien, Austria, September 10-13, 2024, Springer Nature Switzerland.
@@ -51,7 +51,7 @@ Conference on Business Informatics Research, BIR 2021, Vienna, Austria, Septembe
 <br>
 [[Link](https://link.springer.com/chapter/10.1007/978-3-030-66498-5_9){:target="_blank"}]
 
-### Data and Artifacts
+## Data and Artifacts
 
 <span class="data-icon"></span> **Compagnucci I.**, Re B., Snoeck M., Serral E., (2024) "Simulation Models and Results for the EDOC 2024 Conference" zenodo DOI: 10.5281/zenodo.11005337. 
 <br>
