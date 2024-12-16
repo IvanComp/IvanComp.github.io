@@ -57,6 +57,10 @@ Conference on Business Informatics Research, BIR 2021, Vienna, Austria, Septembe
 
 ## Data and Artifacts
 
+<span class="data-icon"></span> **Compagnucci, I.**, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: Performance Analysis of Architectural Patterns for Federated Learning Systems" zenodo DOI: 10.5281/zenodo.14181278. 
+<br>
+[[Link](https://zenodo.org/records/14181278){:target="_blank"}]
+
 <span class="data-icon"></span> **Compagnucci I.**, Re B., Snoeck M., Serral E., (2024) "Simulation Models and Results for the EDOC 2024 Conference" zenodo DOI: 10.5281/zenodo.11005337. 
 <br>
 [[Link](https://zenodo.org/records/12671621){:target="_blank"}]
