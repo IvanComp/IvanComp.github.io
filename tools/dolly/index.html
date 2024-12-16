@@ -19,7 +19,7 @@
 
 
 
-<title>            Conference Map      Ivan Compagnucci      </title>
+<title>            DOLLY      Ivan Compagnucci      </title>
 
 
 
@@ -29,11 +29,11 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Ivan Compagnucci">
-<meta property="og:title" content="Conference Map">
+<meta property="og:title" content="DOLLY">
 
 
-  <link rel="canonical" href="https://ivancomp.github.io/conferencemap/">
-  <meta property="og:url" content="https://ivancomp.github.io/conferencemap/">
+  <link rel="canonical" href="https://ivancomp.github.io/tools/dolly/">
+  <meta property="og:url" content="https://ivancomp.github.io/tools/dolly/">
 
 
 
@@ -275,7 +275,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Conference Map">
+    <meta itemprop="headline" content="DOLLY">
     
     
     
@@ -283,7 +283,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Conference Map
+          <h1 class="page__title" itemprop="headline">DOLLY
 </h1>
           
         
@@ -293,51 +293,33 @@
       
 
       <section class="page__content" itemprop="text">
-        <p>Available soon 🛠️</p>
+        <p><img src="../assets/images/tools/DOLLY.png" alt="DOLLY" style="max-width: 90%; height: 120px;" /></p>
 
-<!-- Load three.js and three-globe -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<p><a href="https://github.com/IvanComp/DOLLY" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repository-grey?logo=github" alt="GitHub Repository" />
+</a></p>
 
-<script src="https://cdn.jsdelivr.net/npm/three-globe@2.24.13/dist/three-globe.min.js"></script>
+<p><strong>DOLLY</strong> is a JAVA framework designed to continuously optimize IoT-Enhanced Business Processes. By leveraging real-time data from IoT devices and Digital Twins, it provides simulation-based process optimization.</p>
 
-<!-- Container for the 3D map -->
-<div id="globe-container" style="width: 20px; height: 50px;"></div>
+<h3 id="features">Features:</h3>
+<ul>
+  <li>Continuous optimization of IoT-Enhanced Business Processes.</li>
+  <li>Integration with Digital Twins for real-time data.</li>
+  <li>Advanced simulation for performance improvements.</li>
+</ul>
 
-<script>
-  // Set up the scene, camera, and renderer
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(705, window.innerWidth / 500, 0.1, 1000);
-  const renderer = new THREE.WebGLRenderer({ antialias: true });
-  renderer.setSize(1000, 500);
-  renderer.setClearColor(0xffffff, 1); // Imposta lo sfondo bianco
-  document.getElementById("globe-container").appendChild(renderer.domElement);
+<h2 id="references">References</h2>
 
-  // Add light to the scene
-  const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
-  scene.add(ambientLight);
+<h3 id="used-in">Used in</h3>
 
-  const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
-  directionalLight.position.set(10, 10, 10).normalize();
-  scene.add(directionalLight);
+<p><span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Re, B., Snoeck, M., &amp; Asensio, E. S. (2024). “A Digital Process Twin Conceptual Architecture for What-If Process Analysis” In Enterprise Design, Operations, and Computing. EDOC 2024
+Workshops, Wien, Austria, September 10-13, 2024, Springer Nature Switzerland.
+<br />
+[<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=it&amp;user=pp6CqJoAAAAJ&amp;citation_for_view=pp6CqJoAAAAJ:Y0pCki6q_DkC">Link</a>]</p>
 
-  // Create the Globe
-  const globe = new ThreeGlobe()
-    .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-    .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-sky.png');
-  scene.add(globe);
-
-  // Set camera position
-  camera.position.z = 270;
-
-  // Render loop
-  function animate() {
-    requestAnimationFrame(animate);
-    globe.rotation.y += 0.001; // Rotate the Earth slowly
-    renderer.render(scene, camera);
-  }
-  animate();
-</script>
-
+<p><span class="data-icon"></span> <strong>Compagnucci I.</strong>, Re B., Snoeck M., Serral E., (2024) “Simulation Models and Results for the EDOC 2024 Conference” zenodo DOI: 10.5281/zenodo.11005337. 
+<br />
+[<a href="https://zenodo.org/records/12671621" target="_blank">Link</a>]</p>
 
 
         
