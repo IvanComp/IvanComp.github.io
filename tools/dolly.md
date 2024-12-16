@@ -5,7 +5,7 @@ author_profile: true
 layout: single
 ---
 
-![DOLLY](../../assets/images/tools/DOLLY.png)
+<img src="../assets/images/tools/DOLLY.png" alt="DOLLY" style="max-width: 90%; height: 120px;">
 
 <a href="https://github.com/IvanComp/DOLLY" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Repository-grey?logo=github" alt="GitHub Repository">

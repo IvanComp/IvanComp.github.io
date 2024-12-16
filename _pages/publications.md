@@ -6,7 +6,7 @@ layout: single
 
 ## Journals
 
-<span class="journal-icon"></span> Fornari, F., **Compagnucci, I.**, De Donato, M. C., Bertrand, Y., Beyel, H. H., Carrión, E., Franceschetti, M., Groher, W., Grüger, J., Kilic, E., Koschmider, A., Leotta, F., Li, C.-Y., Lugaresi, G., Malburg, L., Mangler, J., Mecella, M., Pastor, O., Riss, U., Seiger, R., Serral, E., Torres, V., Valderas, P. (2024) "Digital Twins of Business Processes: A Research Manifesto". _Internet of Things_ (Under Review)
+<span class="journal-icon"></span> Fornari, F., **Compagnucci, I.**, De Donato, M. C., Bertrand, Y., Beyel, H. H., Carrión, E., Franceschetti, M., Groher, W., Grüger, J., Kilic, E., Koschmider, A., Leotta, F., Li, C.-Y., Lugaresi, G., Malburg, L., Mangler, J., Mecella, M., Pastor, O., Riss, U., Seiger, R., Serral, E., Torres, V., Valderas, P. (2025) "Digital Twins of Business Processes: A Research Manifesto". _Internet of Things_ 
 <br>
 [[arXiv](https://arxiv.org/abs/2410.08219){:target="_blank"}]
 
