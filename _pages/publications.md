@@ -21,6 +21,10 @@ Systems Engineering_, 66, 43–66.
 
 ## Conferences
 
+<span class="conference-icon"></span> **Compagnucci, I.**, Pinciroli, R., & Trubiani, C. (2025). Supporting digital twins systems integrating the MERODE approach. Accepted for the 22nd IEEE International Conference on Software Architecture. ICSA 2025. Odense, Denmark, 31 March - 4 April 2025.
+<br>
+[[Link](){:target="_blank"}]
+
 <span class="conference-icon"></span> **Compagnucci, I.**, Re, B., Snoeck, M., & Asensio, E. S. (2024). "A Digital Process Twin Conceptual Architecture for What-If Process Analysis" In Enterprise Design, Operations, and Computing. EDOC 2024
 Workshops, Wien, Austria, September 10-13, 2024, Springer Nature Switzerland.
 <br>
