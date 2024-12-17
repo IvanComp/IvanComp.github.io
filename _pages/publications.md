@@ -21,7 +21,7 @@ Systems Engineering_, 66, 43–66.
 
 ## Conferences
 
-<span class="conference-icon"></span> **Compagnucci, I.**, Pinciroli, R., & Trubiani, C. (2025). Supporting digital twins systems integrating the MERODE approach. Accepted for the 22nd IEEE International Conference on Software Architecture. ICSA 2025. Odense, Denmark, 31 March - 4 April 2025.
+<span class="conference-icon"></span> **Compagnucci, I.**, Pinciroli, R., & Trubiani, C. (2025). Performance Analysis of Architectural Patterns for Federated Learning Systems. Accepted for the 22nd IEEE International Conference on Software Architecture. ICSA 2025. Odense, Denmark, 31 March - 4 April 2025.
 <br>
 [[Link](){:target="_blank"}]
 
