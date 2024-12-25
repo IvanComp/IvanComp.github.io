@@ -8,7 +8,7 @@ layout: single
 
 <span class="journal-icon"></span> Fornari, F., **Compagnucci, I.**, De Donato, M. C., Bertrand, Y., Beyel, H. H., Carrión, E., Franceschetti, M., Groher, W., Grüger, J., Kilic, E., Koschmider, A., Leotta, F., Li, C.-Y., Lugaresi, G., Malburg, L., Mangler, J., Mecella, M., Pastor, O., Riss, U., Seiger, R., Serral, E., Torres, V., Valderas, P. (2025) "Digital Twins of Business Processes: A Research Manifesto". _Internet of Things_ 
 <br>
-[[arXiv](https://arxiv.org/abs/2410.08219){:target="_blank"}]
+[[Link](https://www.sciencedirect.com/science/article/abs/pii/S2542660524004189){:target="_blank"}]
 
 <span class="journal-icon"></span> **Compagnucci, I.**, Corradini, F., Fornari, F., & Re, B. (2024). "A Study on the Usage of the BPMN Notation for Designing Process Collaboration, Choreography, and Conversation Models". _Business & Information
 Systems Engineering_, 66, 43–66.
