@@ -47,7 +47,7 @@ layout: single
 <div class="journal-container">
   <div class="journal-entry">
     <span class="journal-icon"></span> Fornari, F., <strong>Compagnucci, I.</strong>, De Donato, M. C., Bertrand, Y., Beyel, H. H., Carrión, E., Franceschetti, M., Groher, W., Grüger, J., Kilic, E., Koschmider, A., Leotta, F., Li, C.-Y., Lugaresi, G., Malburg, L., Mangler, J., Mecella, M., Pastor, O., Riss, U., Seiger, R., Serral, E., Torres, V., Valderas, P. (2025) "Digital Twins of Business Processes: A Research Manifesto". 
-    <em>Internet of Things</em> (In Press.)
+    <em>Internet of Things</em>, 30, 101477.
     <br>
     [<a href="https://www.sciencedirect.com/science/article/abs/pii/S2542660524004189" target="_blank">Link</a>]
   </div>
@@ -123,7 +123,7 @@ layout: single
 <div class="data-entry">
   <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: Performance Analysis of Architectural Patterns for Federated Learning Systems" 
   <br>
-  Zenodo DOI: 10.5281/zenodo.14181278. 
+  Zenodo DOI:  10.5281/zenodo.14539962 
   <br>
   [<a href="https://zenodo.org/records/14539962" target="_blank">Link</a>]
 </div>
@@ -131,7 +131,7 @@ layout: single
 <div class="data-entry">
   <span class="data-icon"></span> <strong>Compagnucci I.</strong>, Re B., Snoeck M., Serral E., (2024) "Simulation Models and Results for the EDOC 2024 Conference" 
   <br>
-  Zenodo DOI: 10.5281/zenodo.11005337. 
+  Zenodo DOI: 10.5281/zenodo.11005337 
   <br>
   [<a href="https://zenodo.org/records/12671621" target="_blank">Link</a>]
 </div>
