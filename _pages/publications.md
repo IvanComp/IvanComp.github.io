@@ -58,7 +58,7 @@ layout: single
   <div class="journal-entry">
     <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., & Re, B. (2024). "A Study on the Usage of the BPMN Notation for Designing Process Collaboration, Choreography, and Conversation Models". <em>Business & Information Systems Engineering</em>, 66, 43–66.
     <br>
-    [<a href="https://link.springer.com/article/10.1007/s12599-023-00818-7" target="_blank">Link</a>] [<a href="" target="_blank">Accepted Manuscript </a>]
+    [<a href="https://link.springer.com/article/10.1007/s12599-023-00818-7" target="_blank">Link</a>] [<a href="../assets/file/BISE.pdf" target="_blank">Accepted Manuscript </a>]
   </div>
   <img class="journal-image" src="../images/journal/BISE.jpg">
 </div>
@@ -67,7 +67,7 @@ layout: single
   <div class="journal-entry">
     <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., Polini, A., Re, B., & Tiezzi, F. (2023). "A systematic literature review on IoT-aware business process modeling views, requirements and notations". <em>Software and Systems Modeling</em>, 14(1), 1–36.
     <br>
-    [<a href="https://link.springer.com/article/10.1007/s10270-022-01049-2" target="_blank">Link</a>] [<a href="" target="_blank">Accepted Manuscript</a>]
+    [<a href="https://link.springer.com/article/10.1007/s10270-022-01049-2" target="_blank">Link</a>] [<a href="../assets/file/SLR2.pdf" target="_blank">Accepted Manuscript</a>]
   </div>
   <img class="journal-image" src="../images/journal/sosym.jpg">
 </div>
@@ -83,7 +83,7 @@ layout: single
 <div class="conference-entry">
   <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Re, B., Snoeck, M., & Asensio, E. S. (2024). "A Digital Process Twin Conceptual Architecture for What-If Process Analysis" In Enterprise Design, Operations, and Computing. EDOC 2024 Workshops, Wien, Austria, September 10-13, 2024, Springer Nature Switzerland.
   <br>
-  [<a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=pp6CqJoAAAAJ&citation_for_view=pp6CqJoAAAAJ:Y0pCki6q_DkC" target="_blank">Link</a>] [<a href="" target="_blank">Accepted Manuscript</a>]
+  [<a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=pp6CqJoAAAAJ&citation_for_view=pp6CqJoAAAAJ:Y0pCki6q_DkC" target="_blank">Link</a>] [<a href="../assets/file/MIDAS.pdf" target="_blank">Accepted Manuscript</a>]
 </div>
 
 <div class="conference-entry">
@@ -91,26 +91,25 @@ layout: single
   <br>
   🏆 <a href="https://ivancomp.github.io/awards/" target="_blank">BPM 2023 Best Paper Award of the Demonstrations and Resources Forum</a>
   <br>
-  [<a href="https://ceur-ws.org/Vol-3469/paper-22.pdf" target="_blank">PDF</a>] [<a href="../assets/file/BPMN-Inspector.pdf" target="_blank">PDF</a>]
-  </div>
+  [<a href="https://ceur-ws.org/Vol-3469/paper-22.pdf" target="_blank">PDF</a>]
 </div>
 
 <div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Snoeck, M., & Asensio, E. S. (2023). Supporting digital twins systems integrating the MERODE approach. In Proceedings of the 26th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings, MODELS-C 2023, Västerås, Sweden, October 1-6, (pp. 449–458).
+  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Snoeck, M., & Asensio, E. S. (2023). Supporting Digital Twins Systems Integrating the MERODE Approach. In Proceedings of the 26th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings, MODELS-C 2023, Västerås, Sweden, October 1-6, (pp. 449–458).
   <br>
-  [<a href="https://ieeexplore.ieee.org/abstract/document/10350700" target="_blank">Link</a>] [<a href="" target="_blank">Accepted Manuscript</a>]
+  [<a href="https://ieeexplore.ieee.org/abstract/document/10350700" target="_blank">Link</a>] [<a href="../assets/file/MODELS1.pdf" target="_blank">Accepted Manuscript</a>]
 </div>
 
 <div class="conference-entry">
   <span class="conference-icon"></span> Vemuri, P., Poelmans, S., <strong>Compagnucci, I.</strong>, & Snoeck, M. (2023). Using Formative Assessment and Feedback to Train Novice Modelers in Business Process Modeling. In Proceedings of the 26th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings, MODELS-C 2023, Västerås, Sweden, October 1-6, (pp. 449–458).
   <br>
-  [<a href="https://ieeexplore.ieee.org/abstract/document/10350391" target="_blank">Link</a>] [<a href="" target="_blank">Accepted Manuscript</a>]
+  [<a href="https://ieeexplore.ieee.org/abstract/document/10350391" target="_blank">Link</a>] [<a href="../assets/file/MODELS2.pdf" target="_blank">Accepted Manuscript</a>]
 </div>
 
 <div class="conference-entry">
   <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., & Re, B. (2021). Trends on the Usage of BPMN 2.0 from Publicly Available Repositories. In Perspectives in Business Informatics Research - 20th International Conference on Business Informatics Research, BIR 2021, Vienna, Austria, September 22-24, 2021. (Vol. 430,pp. 84–99).
   <br>
-  [<a href="https://link.springer.com/chapter/10.1007/978-3-030-87205-2_6" target="_blank">Link</a>] [<a href="" target="_blank">Accepted Manuscript</a>]
+  [<a href="https://link.springer.com/chapter/10.1007/978-3-030-87205-2_6" target="_blank">Link</a>] [<a href="../assets/file/BIR.pdf" target="_blank">Accepted Manuscript</a>]
 </div>
 
 <div class="conference-entry">
