@@ -77,12 +77,14 @@ layout: single
 <div class="conference-entry">
   <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025). Performance Analysis of Architectural Patterns for Federated Learning Systems. Accepted for the 22nd IEEE International Conference on Software Architecture. ICSA 2025. Odense, Denmark, 31 March - 4 April 2025.
   <br>
-  [<a href="#" target="_blank">Link</a>] [<a href="" target="_blank">Accepted Manuscript</a>]
+  [<a href="#" target="_blank">Link</a>] [<a href="../assets/file/FL.pdf" target="_blank">Accepted Manuscript</a>]
   <br>
   <span class="badge-section">
-    <img src="../assets/images/ORO.png" class="badge-icon" /> <strong>Open Research Object:</strong> Recognized for exceptional contribution.
-    <br>
-    <img src="../assets/images/ROR.png" class="badge-icon" /> <strong>Replication Badge:</strong> Acknowledged for funcitonality and reproducibility.
+      <img src="../assets/images/ORO.png" class="badge-icon" style="width: 20px; height: auto;" /> 
+      <strong>Open Research Object:</strong> Recognized for exceptional contribution.
+      <br>
+      <img src="../assets/images/ROR.png" class="badge-icon" style="width: 20px; height: auto;" /> 
+      <strong>Replication Badge:</strong> Acknowledged for functionality and reproducibility.
   </span>
 </div>
 
