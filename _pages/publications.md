@@ -42,6 +42,10 @@ layout: single
     width: 5px; 
     height: auto; 
   }
+  .badge-icon {
+    width: 20px;
+    height: auto;
+  }
 </style>
 
 <div class="journal-container">
@@ -81,10 +85,10 @@ layout: single
   <br>
   <span class="badge-section">
       <img src="../assets/images/ORO.png" class="badge-icon" style="width: 20px; height: auto;" /> 
-      <strong>Open Research Object:</strong> Recognized for exceptional contribution.
+      <strong>Open Research Object.</strong> 
       <br>
       <img src="../assets/images/ROR.png" class="badge-icon" style="width: 20px; height: auto;" /> 
-      <strong>Replication Badge:</strong> Acknowledged for functionality and reproducibility.
+      <strong>Research Object Reviewed.</strong>
   </span>
 </div>
 
