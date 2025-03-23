@@ -187,7 +187,7 @@ redirect_from:
   <div class="tool-card performance-tool">
     <img src="../assets/images/tools/AP4FED.svg" alt="AP4Fed" style="max-width: 90%; height: 120px;">
     <h3>AP4Fed</h3>
-    <p>Status: <span class="status-development"><em>In Development</em></span><br>
+    <p>Status: <span class="status-stable"><em>v1.0.0 Stable </em></span><br>
     A Federated Learning platform built on top of Flower with advanced design capabilities.</p>
    <p> <span class="badge badge">Performance-Analysis</span> <span class="badge badge">Architectural-Patterns</span> <span class="badge badge">Federated-Learning</span> </p>
     <div class="buttons">
