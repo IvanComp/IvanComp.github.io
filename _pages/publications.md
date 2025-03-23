@@ -129,7 +129,7 @@ layout: single
 ## Data and Artifacts
 
 <div class="data-entry">
-  <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: "Open Science Artifact: Experimenting Architectural Patterns in Federated Learning Systems" 
+  <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: Experimenting Architectural Patterns in Federated Learning Systems" 
   <br>
   Zenodo DOI:  10.5281/zenodo.14938910 
   <br>
