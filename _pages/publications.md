@@ -74,7 +74,7 @@ layout: single
   <div class="journal-entry">
     <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., & Re, B. (2024). "A Study on the Usage of the BPMN Notation for Designing Process Collaboration, Choreography, and Conversation Models". <em>Business & Information Systems Engineering</em>, 66, 43–66.
     <br>
-    [<a href="https://link.springer.com/article/10.1007/s12599-023-00818-7" target="_blank">Link</a>] [<a href="../assets/file/BISE.pdf" target="_blank">Accepted Manuscript </a>]
+    [<a href="https://link.springer.com/article/10.1007/s12599-023-00818-7" target="_blank">Link</a>] [<a href="../assets/file/BISE.pdf" target="_blank">Accepted Manuscript</a>]
   </div>
   <img class="journal-image" src="../images/journal/BISE.jpg">
 </div>

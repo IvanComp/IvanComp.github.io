@@ -2,23 +2,19 @@ on:
   push:
   pull_request:
     types: [opened, synchronize]
-
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Build and Test
     steps:
       - uses: actions/checkout@v2
-
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0
           bundler-cache: true
-
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install
-
       - name: Build site
         run: bundle exec jekyll build
