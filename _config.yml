@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Ivan Compagnucci"
   pronouns         : #"he/him"
-  bio              : 'Postdoctoral Researcher @ Gran Sasso <span style="color: orange;">Science</span> Institute'
+  bio              : 'Postdoctoral Researcher at Gran Sasso <span style="color: orange;">Science</span> Institute'
   #location         : "Italy"
   #employer         : "Gran Sasso Science Institute"
   uri              : # URL
