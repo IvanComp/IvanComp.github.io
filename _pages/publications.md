@@ -50,6 +50,16 @@ layout: single
 
 <div class="journal-container">
   <div class="journal-entry">
+    <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025). "Experimenting Architectural Patterns in Federated Learning Systems". 
+    <em>Journal of Systems and Software</em>, 
+    <br>
+    [<a href="" target="_blank">Link</a>] [<a href="" target="_blank">PDF</a>]
+  </div>
+  <img class="journal-image" src="../images/journal/jss.jpg">
+</div>
+
+<div class="journal-container">
+  <div class="journal-entry">
     <span class="journal-icon"></span> Fornari, F., <strong>Compagnucci, I.</strong>, De Donato, M. C., Bertrand, Y., Beyel, H. H., Carrión, E., Franceschetti, M., Groher, W., Grüger, J., Kilic, E., Koschmider, A., Leotta, F., Li, C.-Y., Lugaresi, G., Malburg, L., Mangler, J., Mecella, M., Pastor, O., Riss, U., Seiger, R., Serral, E., Torres, V., Valderas, P. (2025) "Digital Twins of Business Processes: A Research Manifesto". 
     <em>Internet of Things</em>, 30, 101477.
     <br>
