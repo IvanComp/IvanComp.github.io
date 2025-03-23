@@ -85,10 +85,8 @@ layout: single
   <br>
   <span class="badge-section">
       <img src="../assets/images/ORO.png" class="badge-icon" style="width: 20px; height: auto;" /> 
-      <strong>Open Research Object.</strong> 
       <br>
       <img src="../assets/images/ROR.png" class="badge-icon" style="width: 20px; height: auto;" /> 
-      <strong>Research Object Reviewed.</strong>
   </span>
 </div>
 

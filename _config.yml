@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Ivan Compagnucci"
   pronouns         : #"he/him"
-  bio              : "Postdoctoral Researcher in Computer Science"
-  location         : "Italy"
-  employer         : "Gran Sasso Science Institute"
+  bio              : "Postdoctoral Researcher in Computer Science @ Gran Sasso Science Institute"
+  #location         : "Italy"
+  #employer         : "Gran Sasso Science Institute"
   uri              : # URL
   email            : "ivan.compagnucci@gssi.it" 
 
@@ -303,6 +303,7 @@ plugins:
   - jekyll-paginate
  # - jekyll-sitemap
   - jemoji
+  - jekyll-last-modified-at
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -312,6 +313,9 @@ whitelist:
   - jekyll-sitemap
   - jemoji
 
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
 
 # Archives
 #  Type
