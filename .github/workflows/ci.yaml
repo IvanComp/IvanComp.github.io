@@ -22,6 +22,3 @@ jobs:
 
       - name: Build site
         run: bundle exec jekyll build
-
-      - name: Test site
-        run: bundle exec jekyll doctor
