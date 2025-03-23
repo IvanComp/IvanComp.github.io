@@ -1,65 +1,27 @@
-name: Build and Deploy Jekyll Site
-
 on:
   push:
-    branches: ["master"]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   build:
-    runs-on: ubuntu-24.04-x64
+    runs-on: ubuntu-latest
+    name: Build and Test
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v2
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - uses: ruby/setup-ruby@v1
         with:
-          fetch-depth: 0
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Install ruby-build (required to build Ruby)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ruby-build
-
-      - name: Install Ruby 3.2.2 manually
-        run: |
-          mkdir -p "$RUNNER_TOOL_CACHE/Ruby/3.2.2/x64"
-          ruby-build 3.2.2 "$RUNNER_TOOL_CACHE/Ruby/3.2.2/x64"
-          touch "$RUNNER_TOOL_CACHE/Ruby/3.2.2/x64.complete"
-
-      - name: Setup Ruby environment
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.2.2
+          ruby-version: 3.0
           bundler-cache: true
 
-      - name: Install dependencies and build Jekyll site
+      - name: Install dependencies
         run: |
+          gem install bundler
           bundle install
-          bundle exec jekyll build --destination _site
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-24.04-x64
-    steps:
-      - name: Download Pages artifact
-        uses: actions/download-pages-artifact@v2
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Build site
+        run: bundle exec jekyll build
