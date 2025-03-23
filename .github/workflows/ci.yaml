@@ -10,9 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Build site
-        run: bundle exec jekyll build
-
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0
