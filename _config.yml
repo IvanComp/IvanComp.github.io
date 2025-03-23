@@ -38,8 +38,8 @@ author:
   orcid            : "https://orcid.org/0000-0002-1991-0579"
   #semantic         : "https://www.semanticscholar.org/author/Ivan-Compagnucci/2047183521"
   dblp             : "https://dblp.org/pid/283/4717.html"
-  pubmed           : #
   researchgate     : "https://www.researchgate.net/profile/Ivan-Compagnucci"
+  linkedin         : "https://www.linkedin.com/in/ivan-compagnucci/"
   scopus           : # URL
 
   # Repositories and software development
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  linkedin         : "https://www.linkedin.com/in/ivan-compagnucci/"
+
   bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username

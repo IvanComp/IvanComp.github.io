@@ -131,6 +131,14 @@ layout: single
 ## Data and Artifacts
 
 <div class="data-entry">
+  <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: "Open Science Artifact: Experimenting Architectural Patterns in Federated Learning Systems" 
+  <br>
+  Zenodo DOI:  10.5281/zenodo.14938910 
+  <br>
+  [<a href="https://zenodo.org/records/14938910" target="_blank">Link</a>]
+</div>
+
+<div class="data-entry">
   <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: Performance Analysis of Architectural Patterns for Federated Learning Systems" 
   <br>
   Zenodo DOI:  10.5281/zenodo.14539962 
