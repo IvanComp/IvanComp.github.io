@@ -93,7 +93,7 @@ layout: single
 <div class="conference-entry">
   <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025). Performance Analysis of Architectural Patterns for Federated Learning Systems. Accepted for the 22nd IEEE International Conference on Software Architecture. ICSA 2025. Odense, Denmark, 31 March - 4 April 2025.
   <br>
-  [<a href="#" target="_blank">Link</a>] [<a href="../assets/file/FL.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/file/slide/ICSA25.pdf" target="_blank">Slides</a>]
+  [<a href="#" target="_blank">Link</a>] [<a href="../assets/file/FL.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/file/ICSA25.pdf" target="_blank">Slides</a>]
   <span class="badge-section">
       <img src="../assets/images/ORO.png" class="badge-icon" style="width: 20px; height: auto;" /> 
       <img src="../assets/images/ROR.png" class="badge-icon" style="width: 20px; height: auto;" /> 
@@ -103,7 +103,7 @@ layout: single
 <div class="conference-entry">
   <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Re, B., Snoeck, M., & Asensio, E. S. (2024). "A Digital Process Twin Conceptual Architecture for What-If Process Analysis" In Enterprise Design, Operations, and Computing. EDOC 2024 Workshops, Wien, Austria, September 10-13, 2024, Springer Nature Switzerland.
   <br>
-  [<a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=pp6CqJoAAAAJ&citation_for_view=pp6CqJoAAAAJ:Y0pCki6q_DkC" target="_blank">Link</a>] [<a href="../assets/file/MIDAS.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/file/slide/EDOC24.pdf" target="_blank">Slides</a>]
+  [<a href="https://scholar.google.com/citations?view_op=view_citation&hl=it&user=pp6CqJoAAAAJ&citation_for_view=pp6CqJoAAAAJ:Y0pCki6q_DkC" target="_blank">Link</a>] [<a href="../assets/file/MIDAS.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/file/EDOC24.pdf" target="_blank">Slides</a>]
 </div>
 
 <div class="conference-entry">
