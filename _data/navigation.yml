@@ -8,17 +8,14 @@ main:
   - title: "Publications"
     url: /publications/  
 
+  - title: "Research Activities"
+    url: /activities/
+
   - title: "Tools"
     url: /tools/ 
 
   - title: "Awards"
     url: /awards/  
-        
-  - title: "Activities"
-    url: /activities/
-  
-  - title: "Teaching"
-    url: /teaching/   
 
   - title: "Conference Map"
     url: /conferencemap/  
