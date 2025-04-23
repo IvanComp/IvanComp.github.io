@@ -1,7 +1,6 @@
 ---
 layout: single
 permalink: /activities/
-title: "Research Activities"
 redirect_from: 
   - /activities/
   - /activities.html
