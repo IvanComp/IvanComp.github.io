@@ -14,7 +14,7 @@ redirect_from:
 
 ## Reviews
 
-- **Internet of Things** [Journal](https://www.sciencedirect.com/journal/internet-of-things) [Certificate](https://orcid.org/my-orcid?orcid=0000-0002-1991-0579)
-- **SoftwareX** [Journal](https://www.sciencedirect.com/journal/softwarex) [Certificate](https://orcid.org/my-orcid?orcid=0000-0002-1991-0579)
+- **Internet of Things** [Journal](https://www.sciencedirect.com/journal/internet-of-things)
+- **SoftwareX** [Journal](https://www.sciencedirect.com/journal/softwarex)
 - **ECIS '24** (European Conference on Information Systems)
 - **COORDINATION '24** Artefact Evaluation Track
