@@ -14,6 +14,7 @@ redirect_from:
 
 ## Reviews
 
+- **Information Fusion** [Journal](https://www.sciencedirect.com/journal/information-fusion)
 - **Internet of Things** [Journal](https://www.sciencedirect.com/journal/internet-of-things)
 - **SoftwareX** [Journal](https://www.sciencedirect.com/journal/softwarex)
 - **ECIS '24** (European Conference on Information Systems)
