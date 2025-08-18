@@ -1,0 +1,79 @@
+# 4th Conference on System and Service Quality (QualITA'25)
+- name: "QualITA'25"
+  description: "4th Conference on System and Service Quality"
+  year: 2025
+  place: "Catania, Italy"
+  lat: 37.5079     # Catania, Italy
+  lng: 14.6830
+  image: /assets/images/conferences/qualita-2025/cover.jpg
+  url: /conferences/qualita-2025/
+
+# 22nd IEEE International Conference on Software Architecture (ICSA '25)
+- name: "ICSA '25"
+  description: "22nd IEEE International Conference on Software Architecture"
+  year: 2025
+  place: "Odense, Denmark"
+  lat: 55.4038     # Odense, Denmark
+  lng: 10.4024
+  image: /assets/images/conferences/icsa-2025/cover.jpg
+  url: /conferences/icsa-2025/
+
+# 28th International Conference on Enterprise Design, Operations, and Computing (EDOC '24)
+- name: "EDOC '24"
+  description: "28th International Conference on Enterprise Design, Operations, and Computing"
+  year: 2024
+  place: "Vienna, Austria"
+  lat: 48.2082     # Vienna, Austria
+  lng: 16.3738
+  image: /assets/images/conferences/edoc-2024/cover.jpg
+  url: /conferences/edoc-2024/
+
+# 21st International Conference on Business Process Management (BPM '23)
+- name: "BPM '23"
+  description: "21st International Conference on Business Process Management"
+  year: 2023
+  place: "Utrecht, Netherlands"
+  lat: 52.0907     # Utrecht, Netherlands
+  lng: 5.1214
+  image: /assets/images/conferences/bpm-2023/cover.jpg
+  url: /conferences/bpm-2023/
+
+# 26th International Conference on Model-Driven Engineering Languages and Systems (MODELS '23)
+- name: "MODELS '23"
+  description: "26th ACM/IEEE International Conference on Model-Driven Engineering Languages and Systems"
+  year: 2023
+  place: "Västerås, Sweden"
+  lat: 59.6099     # Västerås, Sweden
+  lng: 16.5448
+  image: /assets/images/conferences/models-2023/cover.jpg
+  url: /conferences/models-2023/
+
+# 20th International Conference on Business Informatics Research (BIR '21)
+- name: "BIR '21"
+  description: "20th International Conference on Business Informatics Research"
+  year: 2021
+  place: "Vienna, Austria"
+  lat: 47.2082     # Vienna, Austria
+  lng: 15.3738
+  image: /assets/images/conferences/bir-2021/cover.jpg
+  url: /conferences/bir-2021/
+
+# 18th International Conference on Business Process Management (BPM '20)
+- name: "BPM '20"
+  description: "18th International Conference on Business Process Management"
+  year: 2020
+  place: "Seville, Spain"
+  lat: 37.3891     # Seville, Spain
+  lng: -5.9845
+  image: /assets/images/conferences/bpm-2020/cover.jpg
+  url: /conferences/bpm-2020/
+
+# Visiting Research Period — KU Leuven (Brussels)
+- name: "Visiting Research – KU Leuven (LIRIS)"
+  description: "Visiting Ph.D. period with LIRIS at KU Leuven (Digital Twins & Learning Analytics), Mar–Jul 2023"
+  year: 2023
+  place: "Brussels, Belgium"
+  lat: 50.8503     # Brussels, Belgium
+  lng: 4.3517
+  image: /assets/images/conferences/ku-leuven-2023/cover.jpg
+  url: /conferences/ku-leuven-2023/
