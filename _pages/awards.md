@@ -7,9 +7,7 @@ redirect_from:
   - /awards.html
 ---
 
-## 2023
-
-## ▸ Best Paper Award of the Demonstrations and Resources Forum (BPM'23)
+### ▸ Best Paper Award of the Demonstrations and Resources Forum (BPM'23)
 
 **BPMN Inspector** was awarded at the 21th International Conference on Business Process Management September 11-15 in: [BPM 2023 Best Paper Award of the Demonstration and Resources Forum ](https://bpm-conference.org/awards/) with the paper entitled: BPMN Inspector: A Tool for Extracting Features from BPMN Models. 
 
@@ -17,119 +15,150 @@ The contribution was mentioned for its noteworthy "potential impact on BPM
 practitioners and educators" in the [BPM Newsletter of November 2023](https://bpm-conference.org/assets/docs/newsletter/BPM-newsletter-2023-11.pdf
 ). 
 
-<div class="slideshow-container" style="width:80%;">
+<div class="slideshow-container">
 
   <div class="mySlides fade">
-    <img src="../files/awards/2023/bpmnaward.jpeg" style="width:100%; border-radius: 10px;">
+    <img src="../files/awards/2023/bpmnaward.jpeg" alt="BPMN Inspector Award 2023" />
   </div>
 
   <div class="mySlides fade">
-    <img src="../files/awards/2023/BPM23AwardCertificate.jpg" style="width:100%; border-radius: 10px;">
+    <img src="../files/awards/2023/BPM23AwardCertificate.jpg" alt="BPM'23 Award Certificate" />
   </div>
 
-  <!-- Controlli sinistro e destro -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <!-- Frecce di navigazione -->
+  <a class="prev" onclick="plusSlides(-1)" role="button" aria-label="Previous slide">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)" role="button" aria-label="Next slide">&#10095;</a>
 </div>
 
-<div style="text-align:center; margin-top: 10px;">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
+<!-- Indicatori sotto -->
+<div class="dots-container">
+  <span class="dot" onclick="currentSlide(1)" aria-label="Slide 1"></span> 
+  <span class="dot" onclick="currentSlide(2)" aria-label="Slide 2"></span> 
 </div>
 
 <style>
 .slideshow-container {
   position: relative;
   max-width: 80%;
-  margin: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
 
 .mySlides {
   display: none;
+  width: 100%;
 }
 
-img {
-  vertical-align: middle;
-  border-radius: 10px;
+.mySlides img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 1s ease-in-out;
 }
 
+.mySlides.fade img {
+  animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+/* Frecce */
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.3s;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  transition: background 0.3s, transform 0.3s;
 }
 
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+.prev { left: 15px; }
+.next { right: 15px; }
+
+.prev::before { content: "◀"; }
+.next::before { content: "▶"; }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background: rgba(0,0,0,0.8);
+  transform: scale(1.1);
+}
+
+/* Indicatori */
+.dots-container {
+  text-align: center;
+  margin-top: 12px;
 }
 
 .dot {
   height: 12px;
   width: 12px;
-  margin: 0 2px;
+  margin: 0 3px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease, transform 0.2s;
   cursor: pointer;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  animation: fadeEffect 1.5s;
-}
-
-@keyframes fadeEffect {
-  from {opacity: .4} 
-  to {opacity: 1}
+  background-color: #444;
+  transform: scale(1.2);
 }
 </style>
 
 <script>
-let slideIndex = 0;
-showSlides();
+let slideIndex = 1;
+let slideTimer;
 
-function showSlides() {
-  let i;
+function showSlides(n) {
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
+  
+  if (n > slides.length) { slideIndex = 1 }    
+  if (n < 1) { slideIndex = slides.length }
+
+  for (let s of slides) { s.style.display = "none"; }
+  for (let d of dots) { d.className = d.className.replace(" active", ""); }
+
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 7000); 
 }
 
 function plusSlides(n) {
+  clearTimeout(slideTimer);
   showSlides(slideIndex += n);
+  slideTimer = setTimeout(autoSlides, 7000);
 }
 
 function currentSlide(n) {
-  slideIndex = n;
-  showSlides();
+  clearTimeout(slideTimer);
+  showSlides(slideIndex = n);
+  slideTimer = setTimeout(autoSlides, 7000);
 }
+
+function autoSlides() {
+  showSlides(slideIndex += 1);
+  slideTimer = setTimeout(autoSlides, 7000);
+}
+
+// Pausa autoplay su hover
+const container = document.querySelector('.slideshow-container');
+container.addEventListener('mouseenter', () => clearTimeout(slideTimer));
+container.addEventListener('mouseleave', () => slideTimer = setTimeout(autoSlides, 7000));
+
+showSlides(slideIndex);
+slideTimer = setTimeout(autoSlides, 7000);
 </script>

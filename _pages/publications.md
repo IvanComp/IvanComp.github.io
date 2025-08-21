@@ -91,7 +91,13 @@ layout: single
 ## Conferences
 
 <div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025). Performance Analysis of Architectural Patterns for Federated Learning Systems. Accepted for the 22nd IEEE International Conference on Software Architecture. ICSA 2025. Odense, Denmark, 31 March - 4 April 2025.
+  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, & Trubiani, C. (2025). Towards AI Agents for Selecting Architectural Patterns in Federated Learning Systems. In the 4th Conference on System and Service Quality. QualITA 2025. Catania, Italy, 25 June and 27 June 2025.
+  <br>
+  [<a href="" target="_blank">PDF</a>] [<a href="" target="_blank">Slides</a>]
+</div>
+
+<div class="conference-entry">
+  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025). Performance Analysis of Architectural Patterns for Federated Learning Systems. In the 22nd IEEE International Conference on Software Architecture. ICSA 2025. Odense, Denmark, 31 March - 4 April 2025.
   <br>
   [<a href="https://ieeexplore.ieee.org/abstract/document/10978942" target="">Link</a>] [<a href="../assets/file/FL.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/ICSA25.pdf" target="_blank">Slides</a>]
   <span class="badge-section">
@@ -153,12 +159,4 @@ layout: single
   Zenodo DOI:  10.5281/zenodo.14539962 
   <br>
   [<a href="https://zenodo.org/records/14539962" target="_blank">Link</a>]
-</div>
-
-<div class="data-entry">
-  <span class="data-icon"></span> <strong>Compagnucci I.</strong>, Re B., Snoeck M., Serral E., (2024) "Simulation Models and Results for the EDOC 2024 Conference" 
-  <br>
-  Zenodo DOI: 10.5281/zenodo.11005337 
-  <br>
-  [<a href="https://zenodo.org/records/12671621" target="_blank">Link</a>]
 </div>

@@ -8,18 +8,32 @@ redirect_from:
 ---
 
 
-Hello! I’m Ivan Compagnucci, a PostDoctoral Researcher at Gran Sasso Science Institute.
+Hello! I’m <strong>Ivan Compagnucci</strong>, a PostDoctoral Researcher at Gran Sasso Science Institute.
 
 I received my M.Sc. in Computer Science (May 2020) and my Ph.D. in Computer Science and Mathematics (July 2024) from the University of Camerino. My doctoral disseration proposed an approach to support IoT-Enhanced Business Processes with the Digital Twin paradigm.
 
-My research focuses on modeling and monitoring business processes that integrate features, data and concepts concerning the Internet of Things (IoT) world. The goal is to align enterprise or organization business processes with emerging IoT technologies, aiming to achieve a synergy that enables continuous technology innovation. Recently, I started to work on the novel paradigm of Digital Process Twin.
+My research covers several topics: From the <strong>Business Process Management</strong> discipline (modeling and monitoring business processes that integrate features, data and concepts concerning the Internet of Things world) to integrating the concept of Digital Twin into business processes (<strong>Digital Process Twin</strong>). Recently, I started to work on evaluating and developing architectural solutions in <strong>Federated Learning</strong> systems.
 
-Click [here](../files/IvanCompagnucciCV.pdf) to download my academic CV.
+[Academic CV](../files/IvanCompagnucciCV.pdf)
 
 
 # News
 
-Available soon 🛠️
+<div class="cm-wrap" style="height: 2060px;">
+  <iframe
+    src="{{ site.data.linkedin.last_embed_url }}"
+    title="LinkedIn post"
+    style="width:100%; height:100%; border:0; overflow:hidden;"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
+
+
+
+
+
+
 
 <script src="https://unpkg.com/globe.gl@2.29.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
