@@ -52,7 +52,7 @@ layout: single
 <div class="journal-container">
   <div class="journal-entry">
     <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025). "Experimenting Architectural Patterns in Federated Learning Systems". 
-    <em>Journal of Systems and Software</em>, 
+    <em>Journal of Systems and Software</em>, <em>In press</em>
     <br>
     [<a href="" target="_blank">Link</a>] [<a href="" target="_blank">PDF</a>]
   </div>
