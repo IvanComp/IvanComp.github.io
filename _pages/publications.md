@@ -54,7 +54,7 @@ layout: single
     <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025). "Experimenting Architectural Patterns in Federated Learning Systems". 
     <em>Journal of Systems and Software</em>, <em>In press</em>
     <br>
-    [<a href="" target="_blank">Link</a>] [<a href="" target="_blank">PDF</a>]
+    [<a href="" target="_blank">Link</a>] [<a href="../assets/file/JSS-FL.pdf" target="_blank">Pre-Print</a>]
   </div>
   <img class="journal-image" src="../images/journal/jss.jpg">
 </div>
@@ -74,7 +74,7 @@ layout: single
   <div class="journal-entry">
     <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., & Re, B. (2024). "A Study on the Usage of the BPMN Notation for Designing Process Collaboration, Choreography, and Conversation Models". <em>Business & Information Systems Engineering</em>, 66, 43–66.
     <br>
-    [<a href="https://link.springer.com/article/10.1007/s12599-023-00818-7" target="_blank">Link</a>] [<a href="../assets/file/BISE.pdf" target="_blank">Accepted Manuscript</a>]
+    [<a href="https://link.springer.com/article/10.1007/s12599-023-00818-7" target="_blank">Link</a>] [<a href="../assets/file/BISE.pdf" target="_blank">Pre-Print</a>]
   </div>
   <img class="journal-image" src="../images/journal/BISE.jpg">
 </div>
@@ -83,7 +83,7 @@ layout: single
   <div class="journal-entry">
     <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., Polini, A., Re, B., & Tiezzi, F. (2023). "A systematic literature review on IoT-aware business process modeling views, requirements and notations". <em>Software and Systems Modeling</em>, 14(1), 1–36.
     <br>
-    [<a href="https://link.springer.com/article/10.1007/s10270-022-01049-2" target="_blank">Link</a>] [<a href="../assets/file/SLR2.pdf" target="_blank">Accepted Manuscript</a>]
+    [<a href="https://link.springer.com/article/10.1007/s10270-022-01049-2" target="_blank">Link</a>] [<a href="../assets/file/SLR2.pdf" target="_blank">Pre-Print</a>]
   </div>
   <img class="journal-image" src="../images/journal/sosym.jpg">
 </div>
