@@ -10,7 +10,7 @@ redirect_from:
 
 ## Organizing Committee
 
-- In progress
+- 2nd International Workshop on Software Architecture for Generative AI (SAGAI) at **ICSA'26** [In Progress]()
 
 ## Program Committee
 
