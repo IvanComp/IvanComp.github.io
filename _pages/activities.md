@@ -10,7 +10,7 @@ redirect_from:
 
 ## Organizing Committee
 
-- 2nd International Workshop on Software Architecture for Generative AI (SAGAI) at **ICSA'26** [In Progress]()
+- 2nd International Workshop on Software Architecture for Generative AI (SAGAI) at **ICSA'26** [Link](https://www.iese.fraunhofer.de/en/events/sagai.html)
 
 ## Program Committee
 
