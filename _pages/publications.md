@@ -4,6 +4,19 @@ permalink: /publications/
 layout: single
 ---
 
+
+<div style="margin-bottom: 20px;">
+  <label for="publication-filter"><strong>Filter by:</strong></label>
+  <select id="publication-filter" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc;">
+    <option value="all">All Publications</option>
+    <option value="journals">Journals</option>
+    <option value="conferences">Conferences</option>
+    <option value="data">Data and Artifacts</option>
+  </select>
+</div>
+
+<div class="publication-section" data-category="journals" markdown="1">
+
 ## Journals
 
 <style>
@@ -41,6 +54,7 @@ layout: single
   .journal-image {
     width: 5px; 
     height: auto; 
+    max-width: 100px;
   }
   .badge-icon {
     width: 20px;
@@ -87,6 +101,10 @@ layout: single
   </div>
   <img class="journal-image" src="../images/journal/sosym.jpg">
 </div>
+
+</div>
+
+<div class="publication-section" data-category="conferences" markdown="1">
 
 ## Conferences
 
@@ -143,6 +161,10 @@ layout: single
   [<a href="https://link.springer.com/chapter/10.1007/978-3-030-66498-5_9" target="_blank">Link</a>] [<a href="../assets/file/SLR1.pdf" target="_blank">Accepted Manuscript</a>]
 </div>
 
+</div>
+
+<div class="publication-section" data-category="data" markdown="1">
+
 ## Data and Artifacts
 
 <div class="data-entry">
@@ -160,3 +182,24 @@ layout: single
   <br>
   [<a href="https://zenodo.org/records/14539962" target="_blank">Link</a>]
 </div>
+
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filter = document.getElementById('publication-filter');
+    const sections = document.querySelectorAll('.publication-section');
+
+    filter.addEventListener('change', function() {
+      const selectedCategory = this.value;
+
+      sections.forEach(section => {
+        if (selectedCategory === 'all' || section.dataset.category === selectedCategory) {
+          section.style.display = 'block';
+        } else {
+          section.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>

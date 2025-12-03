@@ -1,0 +1,92 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar
+    profile</a>.</div>
+{% endif %}
+
+
+<div style="margin-bottom: 20px;">
+  <label for="publication-filter"><strong>Filter by:</strong></label>
+  <select id="publication-filter" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc;">
+    <option value="all">All Publications</option>
+    {% if site.publication_category %}
+    {% for category in site.publication_category %}
+    <option value="{{ category[0] }}">{{ category[1].title }}</option>
+    {% endfor %}
+    {% endif %}
+  </select>
+</div>
+
+{% include base_path %}
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+{% for category in site.publication_category %}
+<div class="publication-section" data-category="{{ category[0] }}">
+  {% assign title_shown = false %}
+  {% for post in site.publications reversed %}
+  {% if post.category != category[0] %}
+  {% continue %}
+  {% endif %}
+  {% unless title_shown %}
+  <h2>{{ category[1].title }}</h2>
+  <hr />
+  {% assign title_shown = true %}
+  {% endunless %}
+  {% include archive-single.html %}
+  {% endfor %}
+</div>
+{% endfor %}
+
+<!-- Uncategorized Papers -->
+<div class="publication-section" data-category="uncategorized">
+  {% assign uncategorized_shown = false %}
+  {% for post in site.publications reversed %}
+  {% assign has_category = false %}
+  {% for category in site.publication_category %}
+  {% if post.category == category[0] %}
+  {% assign has_category = true %}
+  {% endif %}
+  {% endfor %}
+
+  {% unless has_category %}
+  {% unless uncategorized_shown %}
+  <h2>Other Publications</h2>
+  <hr />
+  {% assign uncategorized_shown = true %}
+  {% endunless %}
+  {% include archive-single.html %}
+  {% endunless %}
+  {% endfor %}
+</div>
+
+{% else %}
+{% for post in site.publications reversed %}
+{% include archive-single.html %}
+{% endfor %}
+{% endif %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const filter = document.getElementById('publication-filter');
+    const sections = document.querySelectorAll('.publication-section');
+
+    filter.addEventListener('change', function () {
+      const selectedCategory = this.value;
+
+      sections.forEach(section => {
+        if (selectedCategory === 'all' || section.dataset.category === selectedCategory) {
+          section.style.display = 'block';
+        } else {
+          section.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
