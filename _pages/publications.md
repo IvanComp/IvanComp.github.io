@@ -125,7 +125,7 @@ layout: single
 </div>
 
 <div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Re, B., Snoeck, M., & Asensio, E. S. (2024). "A Digital Process Twin Conceptual Architecture for What-If Process Analysis" In Enterprise Design, Operations, and Computing. EDOC 2024 Workshops, Wien, Austria, September 10-13, 2024, Springer Nature Switzerland.
+  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Re, B., Asensio, E. S., &Snoeck, M. (2024). "A Digital Process Twin Conceptual Architecture for What-If Process Analysis" In Enterprise Design, Operations, and Computing. EDOC 2024 Workshops, Wien, Austria, September 10-13, 2024, Springer Nature Switzerland.
   <br>
   [<a href="https://link.springer.com/chapter/10.1007/978-3-031-79059-1_23" target="_blank">Link</a>] [<a href="../assets/file/MIDAS.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/EDOC24.pdf" target="_blank">Slides</a>]
 </div>
