@@ -349,7 +349,7 @@ Demonstration &amp; Resources Forum at BPM 2023 co-located with 21st Internation
       
       <div class="page__footer-copyright">
   &copy; 2026 <strong style="color: rgb(140, 140, 175);">Ivan Compagnucci</strong>. Site last
-  updated: <strong style="color: rgb(140, 140, 175);">17 January 2026 12:25 CET</strong>
+  updated: <strong style="color: rgb(140, 140, 175);">17 January 2026 13:09 CET</strong>
   <br>
   Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> & <a
     href="https://github.com/academicpages/academicpages.github.io" rel="nofollow">Academic Pages</a>, a fork of <a
@@ -380,7 +380,7 @@ Demonstration &amp; Resources Forum at BPM 2023 co-located with 21st Internation
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        background-color: #007bff;
+        background-color: #044b97;
         color: white;
         border: none;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -388,8 +388,13 @@ Demonstration &amp; Resources Forum at BPM 2023 co-located with 21st Internation
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 24px;
+        font-size: 14px;
+        /* Reduced from 24px */
+        font-weight: bold;
         transition: transform 0.2s;
+        flex-direction: column;
+        /* Stack text and icon if needed, or row */
+        line-height: 1.2;
     }
 
     #chat-bubble-btn:hover {
@@ -412,7 +417,7 @@ Demonstration &amp; Resources Forum at BPM 2023 co-located with 21st Internation
     }
 
     .chat-header {
-        background-color: #007bff;
+        background-color: #044b97;
         color: white;
         padding: 15px;
         font-weight: bold;
@@ -446,7 +451,7 @@ Demonstration &amp; Resources Forum at BPM 2023 co-located with 21st Internation
 
     .message.user {
         align-self: flex-end;
-        background-color: #007bff;
+        background-color: #044b97;
         color: white;
         border-bottom-right-radius: 4px;
     }
@@ -519,18 +524,12 @@ Demonstration &amp; Resources Forum at BPM 2023 co-located with 21st Internation
         </div>
         <div class="chat-messages" id="chat-messages">
             <div class="message bot">
-                Hello! I am SmolLM2, a light-weight Large Language Model with 135M of parameters. I use a secure, offline RAG system to read and extract information from Ivan's papers.
+                Hello! I am SmolLM2, a light-weight Large Language Model with 135M of parameters. I use a secure, RAG
+                system to read and extract information from Ivan's papers.
             </div>
             <div style="text-align: center; margin-top: 20px;" id="init-panel">
-                <button id="load-model-btn"
-                    style="background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Download
-                    Models (~140MB)</button>
-                <div id="progress-container"
-                    style="display:none; margin-top: 10px; font-size: 11px; text-align: left; padding: 0 20px;">
-                    <div style="margin-bottom: 5px;">Embedding Model: <span id="progress-embed">Waiting...</span></div>
-                    <div>Chat Model: <span id="progress-chat">Waiting...</span></div>
-                </div>
-                <p style="font-size: 11px; color: #666; margin-top: 5px;">Runs entirely in your browser.</p>
+                <p style="color: red; font-weight: bold; font-size: 14px;">Under Development - Currently not available
+                </p>
             </div>
         </div>
         <div class="chat-input-area">
@@ -543,11 +542,10 @@ Demonstration &amp; Resources Forum at BPM 2023 co-located with 21st Internation
         </div>
     </div>
     <button id="chat-bubble-btn">
-       Ask my papers! (LLM) 💬
+        <span style="font-size: 18px;">💬</span>
     </button>
 </div>
 
-<!-- Import Maps for ES Modules -->
 <script type="importmap">
     {
         "imports": {
@@ -556,9 +554,7 @@ Demonstration &amp; Resources Forum at BPM 2023 co-located with 21st Internation
     }
 </script>
 
-<!-- Load paper content first -->
 <script src="/assets/js/papers_content.js"></script>
-<!-- Load chat logic as module -->
 <script type="module" src="/assets/js/chat_widget.js"></script>
 
 </body>

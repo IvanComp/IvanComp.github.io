@@ -14,7 +14,8 @@ redirect_from:
 
 ## Program Committee
 
-<!-- - 1st International Workshop on ... (...) at **CAiSE'26** [Link](https://sadis2025.smartarch.cz/index.html) -->
+- 4th International Workshop on Modelling and Implementation of Digital Twins for Complex Systems (MIDas4CS) at **CAiSE'26** [Link](https://midas4cs.github.io/2026/)
+- 1st International Workshop on Engineering Autonomous Systems Intelligence (EASI) at **CAiSE'26** [Link](https://easi-workshop.github.io/)
 - 1st International Workshop on AI Code QUality, Integrity & REliability (ACQUIRE) at **EDCC'26** [Link](https://acquire-workshop.github.io/2026/)
 - 1st International Workshop on Software Architecture for Data-Intensive Systems (SADIS) at **ECSA'25** [Link](https://sadis2025.smartarch.cz/index.html)
 

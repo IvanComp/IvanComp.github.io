@@ -91,7 +91,7 @@ permalink: /conferencemap/
     .pointColor(() => COLORS.points)
     .pointLabel(d => `
       <div>
-        <div><strong>${d.name}</strong></div>      
+        <div><strong>${d.name}</strong></div>
         ${d.description ? `<div style="opacity:.85">${d.description}</div>` : ``}
         ${d.place ? `<div><strong>${d.place}</strong>, (${d.year}) </div>` : ``}
         <div style="margin-top:4px;opacity:.7">See slideshow</div>
@@ -119,10 +119,14 @@ permalink: /conferencemap/
       .polygonStrokeColor(() => COLORS.border);  // confini
   })();
 
-  // POV e interazioni — invariati
+  // POV e interazioni
   globe.pointOfView({ lat: 20, lng: 0, altitude: 3 });
-  globe.controls().autoRotate = false;
+  globe.controls().autoRotate = true;   // Auto-rotation enabled
+  globe.controls().autoRotateSpeed = 0.5; // Slow rotation
+
   globe.controls().enablePan = true;
+  globe.controls().minDistance = 150; // Min zoom
+  globe.controls().maxDistance = 500; // Max zoom
 
   // Resize
   function resize(){ globe.width(el.clientWidth).height(el.clientHeight); }

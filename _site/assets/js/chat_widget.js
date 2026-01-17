@@ -48,10 +48,10 @@ function toggleChat() {
 
     if (display === 'none' || display === '') {
         chatWindow.style.display = 'flex';
-        // Auto-init if not ready/loading
-        if (!isModelsReady && !isModelsLoading) {
-            initSystem();
-        }
+        // Auto-init disabled for maintenance
+        // if (!isModelsReady && !isModelsLoading) {
+        //     initSystem();
+        // }
     } else {
         chatWindow.style.display = 'none';
     }
