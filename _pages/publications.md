@@ -108,13 +108,13 @@ layout: single
 ## Conferences
 
 <div class="conference-entry">
-  <span class="conference-icon"></span> Baresi, L., <strong>Compagnucci, I.</strong>, Lestingi, L., & Trubiani, C. (2026). Adaptive Toggling of Architectural Patterns for Federated Learning. In International Conference on Software Engineering for Adaptive and Self-Managing Systems (SEAMS). IEEE. 2026.
+  <span class="conference-icon"></span> Baresi, L., <strong>Compagnucci, I.</strong>, Lestingi, L., & Trubiani, C. (2026). Adaptive Toggling of Architectural Patterns for Federated Learning. In International Conference on Software Engineering for Adaptive and Self-Managing Systems (SEAMS). 2026. Rio de Janeiro, Brasil, 13 - 14 April 2026.
   <br>
-  [<a href="" target="_blank">PDF</a>]
+  [<a target="_blank">Link</a>][<a href="../assets/file/SEAMS26.pdf" target="_blank">Accepted Manuscript</a>] [<a target="_blank">Slides</a>]
 </div>
 
 <div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025). Performance Analysis of Architectural Patterns for Federated Learning Systems. In the 22nd IEEE International Conference on Software Architecture. ICSA 2025. Odense, Denmark, 31 March - 4 April 2025.
+  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025). Performance Analysis of Architectural Patterns for Federated Learning Systems. In the 22nd IEEE International Conference on Software Architecture (ICSA). 2025. Odense, Denmark, 31 March - 4 April 2025.
   <br>
   [<a href="https://ieeexplore.ieee.org/abstract/document/10978942" target="">Link</a>] [<a href="../assets/file/FL.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/ICSA25.pdf" target="_blank">Slides</a>]
   <span class="badge-section">
@@ -136,7 +136,7 @@ layout: single
 </div>
 
 <div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Re, B., Asensio, E. S., &Snoeck, M. (2024). "A Digital Process Twin Conceptual Architecture for What-If Process Analysis" In Enterprise Design, Operations, and Computing. EDOC 2024 Workshops, Wien, Austria, September 10-13, 2024, Springer Nature Switzerland.
+  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Re, B., Serral Asensio E., & Snoeck, M. (2024). "A Digital Process Twin Conceptual Architecture for What-If Process Analysis" In Enterprise Design, Operations, and Computing. EDOC 2024 Workshops, Wien, Austria, September 10-13, 2024, Springer Nature Switzerland.
   <br>
   [<a href="https://link.springer.com/chapter/10.1007/978-3-031-79059-1_23" target="_blank">Link</a>] [<a href="../assets/file/MIDAS.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/EDOC24.pdf" target="_blank">Slides</a>]
 </div>
@@ -149,7 +149,7 @@ layout: single
 </div>
 
 <div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Snoeck, M., & Asensio, E. S. (2023). Supporting Digital Twins Systems Integrating the MERODE Approach. In Proceedings of the 26th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings, MODELS-C 2023, Västerås, Sweden, October 1-6, (pp. 449–458).
+  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Snoeck, M., & Serral Asensio E., (2023). Supporting Digital Twins Systems Integrating the MERODE Approach. In Proceedings of the 26th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings, MODELS-C 2023, Västerås, Sweden, October 1-6, (pp. 449–458).
   <br>
   [<a href="https://ieeexplore.ieee.org/abstract/document/10350700" target="_blank">Link</a>] [<a href="../assets/file/MODELS1.pdf" target="_blank">Accepted Manuscript</a>]
 </div>

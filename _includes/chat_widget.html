@@ -1,0 +1,194 @@
+<style>
+    /* Chat Widget Styles */
+    #chat-widget-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    #chat-bubble-btn {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        transition: transform 0.2s;
+    }
+
+    #chat-bubble-btn:hover {
+        transform: scale(1.1);
+    }
+
+    #chat-window {
+        display: none;
+        position: absolute;
+        bottom: 80px;
+        right: 0;
+        width: 350px;
+        height: 500px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        flex-direction: column;
+        overflow: hidden;
+        border: 1px solid #e0e0e0;
+    }
+
+    .chat-header {
+        background-color: #007bff;
+        color: white;
+        padding: 15px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .chat-close {
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .chat-messages {
+        flex: 1;
+        padding: 15px;
+        overflow-y: auto;
+        background-color: #f9f9f9;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .message {
+        padding: 10px 14px;
+        border-radius: 18px;
+        max-width: 80%;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .message.user {
+        align-self: flex-end;
+        background-color: #007bff;
+        color: white;
+        border-bottom-right-radius: 4px;
+    }
+
+    .message.bot {
+        align-self: flex-start;
+        background-color: #e9ecef;
+        color: #333;
+        border-bottom-left-radius: 4px;
+    }
+
+    .chat-input-area {
+        padding: 15px;
+        border-top: 1px solid #e0e0e0;
+        display: flex;
+        gap: 10px;
+        background-color: white;
+        flex-direction: column;
+    }
+
+    #chat-input-field {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        outline: none;
+        box-sizing: border-box;
+        /* fix padding issue */
+    }
+
+    #api-key-input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 12px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+    }
+
+    .send-btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        align-self: flex-end;
+    }
+
+    .send-btn:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    .typing-indicator {
+        font-size: 12px;
+        color: #888;
+        margin-left: 10px;
+        display: none;
+    }
+</style>
+
+<div id="chat-widget-container">
+    <div id="chat-window">
+        <div class="chat-header">
+            <span>Ask my papers (Local RAG)</span>
+            <span class="chat-close" id="chat-close-btn">✕</span>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot">
+                Hello! I am a local AI. I use a secure, offline RAG system to read Ivan's papers.
+            </div>
+            <div style="text-align: center; margin-top: 20px;" id="init-panel">
+                <button id="load-model-btn"
+                    style="background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Download
+                    Models (~140MB)</button>
+                <div id="progress-container"
+                    style="display:none; margin-top: 10px; font-size: 11px; text-align: left; padding: 0 20px;">
+                    <div style="margin-bottom: 5px;">Embedding Model: <span id="progress-embed">Waiting...</span></div>
+                    <div>Chat Model: <span id="progress-chat">Waiting...</span></div>
+                </div>
+                <p style="font-size: 11px; color: #666; margin-top: 5px;">Runs entirely in your browser.</p>
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <div id="chat-status" style="font-size: 11px; color: #666; margin-bottom: 5px; display: none;">Ready</div>
+            <input type="text" id="chat-input-field" disabled placeholder="Load models to chat..." />
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                <span class="typing-indicator" id="typing-indicator">Thinking...</span>
+                <button class="send-btn" id="send-btn" disabled>Send</button>
+            </div>
+        </div>
+    </div>
+    <button id="chat-bubble-btn">
+        💬
+    </button>
+</div>
+
+<!-- Import Maps for ES Modules -->
+<script type="importmap">
+    {
+        "imports": {
+            "@xenova/transformers": "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2/dist/transformers.min.js"
+        }
+    }
+</script>
+
+<!-- Load paper content first -->
+<script src="/assets/js/papers_content.js"></script>
+<!-- Load chat logic as module -->
+<script type="module" src="/assets/js/chat_widget.js"></script>
