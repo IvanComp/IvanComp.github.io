@@ -11,6 +11,7 @@ layout: single
     <option value="all">All Publications</option>
     <option value="journals">Journals</option>
     <option value="conferences">Conferences</option>
+    <option value="workshops">Workshops and Other Venues</option>
     <option value="data">Data and Artifacts</option>
   </select>
 </div>
@@ -21,7 +22,7 @@ layout: single
 
 <style>
   .journal-entry {
-    font-size: 17px; 
+    font-size: 17px;
     line-height: 1.5;
   }
   .journal-entry strong {
@@ -41,8 +42,8 @@ layout: single
     margin-left: 15px;
   }
   .conference-entry, .data-entry {
-    font-size: 17px; 
-    line-height: 1.5; 
+    font-size: 17px;
+    line-height: 1.5;
     margin-bottom:20px;
   }
   .conference-entry strong, .data-entry strong {
@@ -52,8 +53,8 @@ layout: single
     font-style: italic;
   }
   .journal-image {
-    width: 5px; 
-    height: auto; 
+    width: 5px;
+    height: auto;
     max-width: 100px;
   }
   .badge-icon {
@@ -62,10 +63,9 @@ layout: single
   }
 </style>
 
-
 <div class="journal-container">
   <div class="journal-entry">
-    <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2026). "Experimenting Architectural Patterns in Federated Learning Systems". 
+    <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2026). "Experimenting Architectural Patterns in Federated Learning Systems".
     <em>Journal of Systems and Software</em>, 232, 112655
     <br>
     [<a href="https://www.sciencedirect.com/science/article/pii/S0164121225003243?via%3Dihub" target="_blank">Link</a>] [<a href="../assets/file/JSS-FL.pdf" target="_blank">PDF</a>]
@@ -73,10 +73,9 @@ layout: single
   <img class="journal-image" src="../images/journal/jss.jpg">
 </div>
 
-
 <div class="journal-container">
   <div class="journal-entry">
-    <span class="journal-icon"></span> Fornari, F., <strong>Compagnucci, I.</strong>, De Donato, M. C., Bertrand, Y., Beyel, H. H., Carrión, E., Franceschetti, M., Groher, W., Grüger, J., Kilic, E., Koschmider, A., Leotta, F., Li, C.-Y., Lugaresi, G., Malburg, L., Mangler, J., Mecella, M., Pastor, O., Riss, U., Seiger, R., Serral, E., Torres, V., Valderas, P. (2025) "Digital Twins of Business Processes: A Research Manifesto". 
+    <span class="journal-icon"></span> Fornari, F., <strong>Compagnucci, I.</strong>, De Donato, M. C., Bertrand, Y., Beyel, H. H., Carrión, E., Franceschetti, M., Groher, W., Grüger, J., Kilic, E., Koschmider, A., Leotta, F., Li, C.-Y., Lugaresi, G., Malburg, L., Mangler, J., Mecella, M., Pastor, O., Riss, U., Seiger, R., Serral, E., Torres, V., Valderas, P. (2025) "Digital Twins of Business Processes: A Research Manifesto".
     <em>Internet of Things</em>, 30, 101477.
     <br>
     [<a href="https://www.sciencedirect.com/science/article/abs/pii/S2542660524004189" target="_blank">Link</a>] [<a href="../assets/file/DTBP.pdf" target="_blank">PDF</a>]
@@ -109,9 +108,9 @@ layout: single
 ## Conferences
 
 <div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, & Trubiani, C. (2025). Towards AI Agents for Selecting Architectural Patterns in Federated Learning Systems. In the 4th Conference on System and Service Quality. QualITA 2025. Catania, Italy, 25 June and 27 June 2025.
+  <span class="conference-icon"></span> Baresi, L., <strong>Compagnucci, I.</strong>, Lestingi, L., & Trubiani, C. (2026). Adaptive Toggling of Architectural Patterns for Federated Learning. In International Conference on Software Engineering for Adaptive and Self-Managing Systems (SEAMS). IEEE. 2026.
   <br>
-  [<a href="" target="_blank">PDF</a>] [<a href="" target="_blank">Slides</a>]
+  [<a href="" target="_blank">PDF</a>]
 </div>
 
 <div class="conference-entry">
@@ -119,9 +118,21 @@ layout: single
   <br>
   [<a href="https://ieeexplore.ieee.org/abstract/document/10978942" target="">Link</a>] [<a href="../assets/file/FL.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/ICSA25.pdf" target="_blank">Slides</a>]
   <span class="badge-section">
-      <img src="../assets/images/ORO.png" class="badge-icon" style="width: 20px; height: auto;" /> 
-      <img src="../assets/images/ROR.png" class="badge-icon" style="width: 20px; height: auto;" /> 
+      <img src="../assets/images/ORO.png" class="badge-icon" style="width: 20px; height: auto;" />
+      <img src="../assets/images/ROR.png" class="badge-icon" style="width: 20px; height: auto;" />
   </span>
+</div>
+
+</div>
+
+<div class="publication-section" data-category="workshops" markdown="1">
+
+## Workshops and Other Venues
+
+<div class="conference-entry">
+  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, & Trubiani, C. (2025). Towards AI Agents for Selecting Architectural Patterns in Federated Learning Systems. In the 4th Conference on System and Service Quality. QualITA 2025. Catania, Italy, 25 June and 27 June 2025.
+  <br>
+  [<a href="" target="_blank">PDF</a>] [<a href="" target="_blank">Slides</a>]
 </div>
 
 <div class="conference-entry">
@@ -168,17 +179,17 @@ layout: single
 ## Data and Artifacts
 
 <div class="data-entry">
-  <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: Experimenting Architectural Patterns in Federated Learning Systems" 
+  <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: Experimenting Architectural Patterns in Federated Learning Systems"
   <br>
-  Zenodo DOI:  10.5281/zenodo.14938910 
+  Zenodo DOI:  10.5281/zenodo.14938910
   <br>
   [<a href="https://zenodo.org/records/14938910" target="_blank">Link</a>]
 </div>
 
 <div class="data-entry">
-  <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: Performance Analysis of Architectural Patterns for Federated Learning Systems" 
+  <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: Performance Analysis of Architectural Patterns for Federated Learning Systems"
   <br>
-  Zenodo DOI:  10.5281/zenodo.14539962 
+  Zenodo DOI:  10.5281/zenodo.14539962
   <br>
   [<a href="https://zenodo.org/records/14539962" target="_blank">Link</a>]
 </div>

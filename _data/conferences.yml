@@ -1,3 +1,13 @@
+# International Conference on Software Engineering for Adaptive and Self-Managing Systems (SEAMS '26)
+- name: "SEAMS '26"
+- description: "International Conference on Software Engineering for Adaptive and Self-Managing Systems"
+  year: 2026
+  place: "Rio de Janeiro, Brazil"
+  lat: -22.9068     # Rio de Janeiro, Brazil
+  lng: -43.1729
+  image: /assets/images/conferences/seams-2026/cover.jpg
+  url: /conferences/seams-2026/
+
 # 4th Conference on System and Service Quality (QualITA'25)
 - name: "QualITA'25"
   description: "4th Conference on System and Service Quality"
