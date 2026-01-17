@@ -2,7 +2,7 @@ import { pipeline, env } from '@xenova/transformers';
 
 // Configuration
 const EMBEDDING_MODEL = 'Xenova/all-MiniLM-L6-v2';
-const CHAT_MODEL = 'HuggingFaceTB/SmolLM2-135M-Instruct'; // Tiny model for browser
+const CHAT_MODEL = 'Xenova/flan-t5-small'; // 80MB model, reliable for RAG
 const RAG_DATA_URL = '/assets/data/rag_data.json';
 const TOP_K = 3;
 
@@ -37,31 +37,49 @@ inputField.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') handleUserMessage();
 });
 
+// Auto-Init on Load (as requested)
+document.addEventListener('DOMContentLoaded', () => {
+    // We bind the toggle to auto-init
+});
+
+// Redefine toggleChat to handle auto-init
 function toggleChat() {
     const display = chatWindow.style.display;
-    chatWindow.style.display = (display === 'none' || display === '') ? 'flex' : 'none';
+
+    if (display === 'none' || display === '') {
+        chatWindow.style.display = 'flex';
+        // Auto-init if not ready/loading
+        if (!isModelsReady && !isModelsLoading) {
+            initSystem();
+        }
+    } else {
+        chatWindow.style.display = 'none';
+    }
 }
 
 async function initSystem() {
     if (isModelsLoading || isModelsReady) return;
 
     isModelsLoading = true;
-    loadModelBtn.disabled = true;
-    loadModelBtn.textContent = "Initializing...";
+    loadModelBtn.style.display = 'none'; // Hide button since it's auto
     progressContainer.style.display = 'block';
 
     try {
         // 1. Load RAG Data
+        statusDiv.style.display = 'block';
         statusDiv.textContent = "Loading Knowledge Base...";
         const response = await fetch(RAG_DATA_URL);
-        if (!response.ok) throw new Error("Failed to load RAG data");
+        if (!response.ok) throw new Error(`Failed to load RAG data: ${response.status} ${response.statusText}`);
         ragData = await response.json();
         console.log(`Loaded ${ragData.length} chunks.`);
 
         // 2. Load Embedding Model
         statusDiv.textContent = "Loading Embedding Model...";
         progressEmbed.textContent = "Downloading...";
-        env.allowLocalModels = false;
+        progressEmbed.style.color = "#666";
+
+        env.allowLocalModels = false; // Force CDN
+
         embedder = await pipeline('feature-extraction', EMBEDDING_MODEL, {
             progress_callback: (data) => {
                 if (data.status === 'progress') {
@@ -76,7 +94,9 @@ async function initSystem() {
         // 3. Load Chat Model
         statusDiv.textContent = "Loading Chat Model...";
         progressChat.textContent = "Downloading...";
-        generator = await pipeline('text-generation', CHAT_MODEL, {
+        progressChat.style.color = "#666";
+
+        generator = await pipeline('text2text-generation', CHAT_MODEL, {
             progress_callback: (data) => {
                 if (data.status === 'progress') {
                     progressChat.textContent = `${Math.round(data.progress)}%`;
@@ -88,6 +108,7 @@ async function initSystem() {
         });
 
         // Success
+        console.log("Models loaded successfully.");
         isModelsReady = true;
         isModelsLoading = false;
 
@@ -104,8 +125,8 @@ async function initSystem() {
         statusDiv.textContent = "Error: " + error.message;
         statusDiv.style.color = "red";
         isModelsLoading = false;
-        loadModelBtn.disabled = false;
-        loadModelBtn.textContent = "Retry";
+        loadModelBtn.style.display = 'inline-block'; // Show retry button
+        loadModelBtn.textContent = "Retry Download";
     }
 }
 
@@ -159,44 +180,23 @@ async function handleUserMessage() {
 
         const contextText = topChunks.map(c => `[From ${c.source}]: ${c.text}`).join("\n\n");
 
-        // Construct Prompt
-        const messages = [
-            { role: "system", content: "You are a research assistant. Answer based on the context. If unsure, say 'I don't know'." },
-            { role: "user", content: `Context:\n${contextText}\n\nQuestion: ${userQuestion}` }
-        ];
-
-        // Since SmolLM2-Instruct usage in Transformers.js pipeline might not support chat templating perfectly automatically depending on version, 
-        // we construct a robust prompt manually if needed, but let's try the array format first which transformers.js usually handles.
-        // Actually, for tiny models via text-generation, simple prompting is safer.
-
-        const prompt = `<|im_start|>system
-You are a helpful research assistant. Answer the question based strictly on the provided context.
-Context:
-${contextText}<|im_end|>
-<|im_start|>user
-${userQuestion}<|im_end|>
-<|im_start|>assistant
-`;
+        // Construct Prompt for T5
+        // T5 is text-to-text, no chat template. Simple concatenation works best.
+        const prompt = `context: ${contextText} question: ${userQuestion}`;
 
         // Generate
         const output = await generator(prompt, {
-            max_new_tokens: 200,
+            max_new_tokens: 150,
             temperature: 0.5,
-            do_sample: false // greedy for stability on tiny models
+            do_sample: false
         });
 
-        let responseText = output[0].generated_text;
-
-        // Clean up prompt from response if it echoes
-        if (responseText.startsWith(prompt)) {
-            responseText = responseText.substring(prompt.length).trim();
-        }
-
+        const responseText = output[0].generated_text;
         appendMessage(responseText, 'bot');
 
     } catch (error) {
         console.error("Generation Error:", error);
-        appendMessage("Error generating response.", 'bot');
+        appendMessage("Error generating response: " + error.message, 'bot');
     } finally {
         sendBtn.disabled = false;
         inputField.disabled = false;
