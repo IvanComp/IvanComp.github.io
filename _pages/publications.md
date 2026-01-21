@@ -110,7 +110,7 @@ layout: single
 <div class="conference-entry">
   <span class="conference-icon"></span> Baresi, L., <strong>Compagnucci, I.</strong>, Lestingi, L., & Trubiani, C. (2026). Adaptive Toggling of Architectural Patterns for Federated Learning. In International Conference on Software Engineering for Adaptive and Self-Managing Systems (SEAMS). 2026. Rio de Janeiro, Brasil, 13 - 14 April 2026.
   <br>
-  [<a target="_blank">Link</a>][<a href="../assets/file/SEAMS26.pdf" target="_blank">Accepted Manuscript</a>] [<a target="_blank">Slides</a>]
+  [<a target="_blank">Link</a>] [<a href="../assets/file/SEAMS26.pdf" target="_blank">Accepted Manuscript</a>] [<a target="_blank">Slides</a>]
 </div>
 
 <div class="conference-entry">
