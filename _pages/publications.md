@@ -132,7 +132,7 @@ layout: single
 <div class="conference-entry">
   <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, & Trubiani, C. (2025). Towards AI Agents for Selecting Architectural Patterns in Federated Learning Systems. In the 4th Conference on System and Service Quality. QualITA 2025. Catania, Italy, 25 June and 27 June 2025.
   <br>
-  [<a href="" href="../assets/QualITA.pdf">PDF</a>] [<a href="" target="_blank">Slides</a>]
+  [<a href="https://www.scopus.com/pages/publications/105021831512" target="_blank">Link</a>] [<a href="" href="../assets/file/QualITA.pdf">PDF</a>] [<a href="" target="_blank">Slides</a>]
 </div>
 
 <div class="conference-entry">
