@@ -163,6 +163,7 @@ redirect_from:
       <a href="/tools/bpmn-inspector/" class="info" target="_blank">Additional Information</a>
     </div>
   </div>
+</div>
 
 <div class="section-title performance-section" style="margin-top: 30px" >Performance Analysis</div>
 
