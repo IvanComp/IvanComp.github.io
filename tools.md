@@ -153,7 +153,7 @@ redirect_from:
   <div class="tool-card business-tool">
     <img src="../assets/images/tools/BPMNInspector.png" alt="BPMN Inspector" style="max-width: 90%; height: 120px;">
     <h3>BPMN Inspector</h3>
-    <p>Status: <span class="status-stable"><em>v1.0.0 Stable </em></span>🏆 Best Paper Award<br> 
+    <p>Status: <span class="status-stable"><em>v1.0.0 Stable </em></span>🏆 Best Paper Award<br>
     A web application designed to streamline the inspection process of BPMN models.</p>
      <p> <span class="badge badge">BPMN</span> <span class="badge badge">Quantitative Analysis</span> <span class="badge badge">Business Process</span> </p>
     <div class="buttons">
@@ -163,22 +163,6 @@ redirect_from:
       <a href="/tools/bpmn-inspector/" class="info" target="_blank">Additional Information</a>
     </div>
   </div>
-
-  <!-- DOLLY -->
-  <div class="tool-card business-tool">
-    <img src="../assets/images/tools/DOLLY.png" alt="DOLLY" style="max-width: 90%; height: 120px;">
-    <h3>DOLLY</h3>
-    <p>Status: <span class="status-development"><em>In Development</em></span><br>
-    A JAVA framework to optimize IoT-Enhanced Business Processes with Digital Twins.</p>
-    <p>  <span class="badge badge">Digital Process Twin</span> <span class="badge badge">IoT-Enhanced BP</span> <span class="badge badge">Process Simulation</span> </p>
-   <div class="buttons">
-      <a href="https://github.com/IvanComp/DOLLY" class="github" target="_blank">
-        <i class="fab fa-github" style="margin-right: 5px;"></i>GitHub
-      </a>
-      <a href="/tools/dolly/" class="info" target="_blank">Additional Information</a>
-    </div>
-  </div>
-</div>
 
 <div class="section-title performance-section" style="margin-top: 30px" >Performance Analysis</div>
 
@@ -195,7 +179,7 @@ redirect_from:
         <i class="fab fa-github" style="margin-right: 5px;"></i>GitHub
       </a>
       <a href="/tools/ap4fed/" class="info" target="_blank">Additional Information</a>
-    </div> 
+    </div>
   </div>
 
   <div class="tool-card" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
