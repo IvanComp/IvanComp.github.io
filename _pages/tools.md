@@ -2,35 +2,65 @@
 permalink: /tools/
 title: "Tools"
 author_profile: true
-redirect_from: 
+classes: wide
+redirect_from:
   - /tools/
   - /tools.html
 ---
 
-### BPMN Inspector
+{% assign tool_sections = site.data.tools.sections %}
 
-**BPMN Inspector**, is a web application designed to streamline the inspection process of BPMN models. The inspection process effectively distinguishes various
-model types (i.e. collaboration, choreography, and conversation) while eliminating the need for manual effort in identifying duplicate models, validity issues, and
-non-English models. In addition, BPMN Inspector provides detailed insights into
-the collection of models by investigating the usage of BPMN notation elements,
-their combinations, syntactic violations of the standard and the adherence to established good modeling practices.
+{% for section in tool_sections %}
+  <section class="tool-section">
+    <h2 class="page-section-title">{{ section.title }}</h2>
 
-![BPMNInspector](../Images)
+    <div class="tool-grid">
+      {% for tool in section.items %}
+        <article class="tool-card tool-card--{{ section.theme }}{% if tool.placeholder %} tool-card--placeholder{% endif %}">
+          {% if tool.image %}
+            <div class="tool-card__image-wrap">
+              <img
+                class="tool-card__image"
+                src="{{ tool.image | relative_url }}"
+                alt="{{ tool.image_alt | default: tool.name }}"
+              >
+            </div>
+          {% endif %}
 
-[Repository Link](https://github.com/PROSLab/BPMN-Inspector) 
+          <h3 class="tool-card__title">{{ tool.name }}</h3>
 
-### DOLLY
-(_In Development_)
+          {% if tool.status_label or tool.highlight %}
+            <p class="tool-card__status">
+              {% if tool.status_label %}
+                <span class="tool-card__status-label{% if tool.status_type %} tool-card__status-label--{{ tool.status_type }}{% endif %}">
+                  {{ tool.status_label }}
+                </span>
+              {% endif %}
+              {% if tool.highlight %}
+                <span class="tool-card__highlight">{{ tool.highlight }}</span>
+              {% endif %}
+            </p>
+          {% endif %}
 
-**ADAPTIVE SHADOW** is a Java tool developed to optimize IoT-Enhanced Business Processes.
-![BPMNGrader](assets/images/logo.png)
+          {% if tool.description %}
+            <p class="tool-card__description">{{ tool.description }}</p>
+          {% endif %}
 
-[Repository Link](https://github.com/IvanComp/ADAPTIVE-SHADOW)
+          {% if tool.tags and tool.tags.size > 0 %}
+            <div class="tool-tags">
+              {% for tag in tool.tags %}
+                <span class="tool-tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
 
-### FedBench
-(_In Development_)
-
-**ADAPTIVE SHADOW** is a Java tool developed to optimize IoT-Enhanced Business Processes.
-![BPMNGrader](assets/images/logo.png)
-
-[Repository Link](https://github.com/IvanComp/ADAPTIVE-SHADOW)
+          {% if tool.links and tool.links.size > 0 %}
+            <div class="tool-card__actions">
+              {% include resource_links.html links=tool.links %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endfor %}

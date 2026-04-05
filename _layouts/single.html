@@ -14,7 +14,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+<div id="main" role="main"{% if page.classes %} class="{{ page.classes }}"{% endif %}>
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -47,15 +47,24 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
+        {% assign has_paper = false %}
+        {% assign has_slides = false %}
+        {% if page.paperurl and page.paperurl != blank %}
+          {% assign has_paper = true %}
+        {% endif %}
+        {% if page.slidesurl and page.slidesurl != blank %}
+          {% assign has_slides = true %}
+        {% endif %}
+
+        {% if page.citation and has_paper and has_slides %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
+        {% elsif page.citation and has_paper %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
+        {% elsif page.citation and has_slides %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
+        {% elsif has_slides %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
 

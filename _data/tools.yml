@@ -1,0 +1,45 @@
+sections:
+  - title: "Business Process Management"
+    theme: "business"
+    items:
+      - name: "BPMN Inspector"
+        image: "/assets/images/tools/BPMNInspector.png"
+        image_alt: "BPMN Inspector"
+        status_label: "v1.0.0 Stable"
+        status_type: "stable"
+        highlight: "Best Paper Award"
+        description: "A web application designed to streamline the inspection process of BPMN models."
+        tags:
+          - "BPMN"
+          - "Quantitative Analysis"
+          - "Business Process"
+        links:
+          - label: "GitHub"
+            url: "https://github.com/PROSLab/BPMN-Inspector"
+            new_tab: true
+          - label: "Additional Information"
+            url: "/tools/bpmn-inspector/"
+  - title: "Performance Analysis"
+    theme: "performance"
+    items:
+      - name: "AP4Fed"
+        image: "/assets/images/tools/AP4FED.svg"
+        image_alt: "AP4Fed"
+        status_label: "v1.0.0 Stable"
+        status_type: "stable"
+        description: "A Federated Learning platform built on top of Flower with advanced design capabilities."
+        tags:
+          - "Performance Analysis"
+          - "Architectural Patterns"
+          - "Federated Learning"
+        links:
+          - label: "GitHub"
+            url: "https://github.com/IvanComp/AP4Fed"
+            new_tab: true
+          - label: "Additional Information"
+            url: "/tools/ap4fed/"
+      - name: "Developing New Things..."
+        image: "/assets/images/tools/develop.gif"
+        image_alt: "Developing new tools"
+        description: "New tools and experimental prototypes will appear here."
+        placeholder: true

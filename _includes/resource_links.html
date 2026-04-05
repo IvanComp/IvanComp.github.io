@@ -1,0 +1,21 @@
+{% assign links = include.links %}
+{% if links and links.size > 0 %}
+  <div class="resource-links{% if include.class_name %} {{ include.class_name }}{% endif %}">
+    {% for link in links %}
+      {% if link.url and link.url != blank %}
+        {% if link.url contains '://' %}
+          {% assign href = link.url %}
+        {% else %}
+          {% assign href = link.url | relative_url %}
+        {% endif %}
+        <a
+          class="resource-link{% if link.variant %} resource-link--{{ link.variant }}{% endif %}"
+          href="{{ href }}"
+          {% if link.new_tab %}target="_blank" rel="noopener"{% endif %}
+        >
+          {{ link.label }}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

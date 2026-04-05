@@ -2,198 +2,69 @@
 title: "Publications"
 permalink: /publications/
 layout: single
+classes: wide
 ---
 
-
-<div style="margin-bottom: 20px;">
-  <label for="publication-filter"><strong>Filter by:</strong></label>
-  <select id="publication-filter" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc;">
-    <option value="all">All Publications</option>
-    <option value="journals">Journals</option>
-    <option value="conferences">Conferences</option>
-    <option value="workshops">Workshops and Other Venues</option>
-    <option value="data">Data and Artifacts</option>
-  </select>
-</div>
-
-<div class="publication-section" data-category="journals" markdown="1">
-
-## Journals
-
-<style>
-  .journal-entry {
-    font-size: 17px;
-    line-height: 1.5;
-  }
-  .journal-entry strong {
-    font-weight: bold;
-  }
-  .journal-entry em {
-    font-style: italic;
-  }
-  .journal-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .journal-container img {
-    width: 100px;
-    margin-left: 15px;
-  }
-  .conference-entry, .data-entry {
-    font-size: 17px;
-    line-height: 1.5;
-    margin-bottom:20px;
-  }
-  .conference-entry strong, .data-entry strong {
-    font-weight: bold;
-  }
-  .conference-entry em, .data-entry em {
-    font-style: italic;
-  }
-  .journal-image {
-    width: 5px;
-    height: auto;
-    max-width: 100px;
-  }
-  .badge-icon {
-    width: 20px;
-    height: auto;
-  }
-</style>
-
-<div class="journal-container">
-  <div class="journal-entry">
-    <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2026). "Experimenting Architectural Patterns in Federated Learning Systems".
-    <em>Journal of Systems and Software</em>, 232, 112655
-    <br>
-    [<a href="https://www.sciencedirect.com/science/article/pii/S0164121225003243?via%3Dihub" target="_blank">Link</a>] [<a href="../assets/file/JSS-FL.pdf" target="_blank">PDF</a>]
+<div class="publications-page">
+  <div class="publication-filter">
+    <label for="publication-filter"><strong>Filter by:</strong></label>
+    <select id="publication-filter">
+      {% for filter in site.data.publications.filters %}
+        <option value="{{ filter.id }}">{{ filter.label }}</option>
+      {% endfor %}
+    </select>
   </div>
-  <img class="journal-image" src="../images/journal/jss.jpg">
-</div>
 
-<div class="journal-container">
-  <div class="journal-entry">
-    <span class="journal-icon"></span> Fornari, F., <strong>Compagnucci, I.</strong>, De Donato, M. C., Bertrand, Y., Beyel, H. H., Carrión, E., Franceschetti, M., Groher, W., Grüger, J., Kilic, E., Koschmider, A., Leotta, F., Li, C.-Y., Lugaresi, G., Malburg, L., Mangler, J., Mecella, M., Pastor, O., Riss, U., Seiger, R., Serral, E., Torres, V., Valderas, P. (2025) "Digital Twins of Business Processes: A Research Manifesto".
-    <em>Internet of Things</em>, 30, 101477.
-    <br>
-    [<a href="https://www.sciencedirect.com/science/article/abs/pii/S2542660524004189" target="_blank">Link</a>] [<a href="../assets/file/DTBP.pdf" target="_blank">PDF</a>]
-  </div>
-  <img class="journal-image" src="../images/journal/IoT.gif">
-</div>
+  {% for section in site.data.publications.sections %}
+    <section class="publication-section" data-category="{{ section.id }}">
+      <h2>{{ section.title }}</h2>
 
-<div class="journal-container">
-  <div class="journal-entry">
-    <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., & Re, B. (2024). "A Study on the Usage of the BPMN Notation for Designing Process Collaboration, Choreography, and Conversation Models". <em>Business & Information Systems Engineering</em>, 66, 43–66.
-    <br>
-    [<a href="https://link.springer.com/article/10.1007/s12599-023-00818-7" target="_blank">Link</a>] [<a href="../assets/file/BISE.pdf" target="_blank">Pre-Print</a>]
-  </div>
-  <img class="journal-image" src="../images/journal/BISE.jpg">
-</div>
+      <ul class="publication-list">
+        {% for entry in section.entries %}
+          <li class="publication-item{% if entry.image %} publication-item--with-image{% endif %}">
+            {% if entry.image %}
+              <img
+                class="publication-item__cover"
+                src="{{ entry.image | relative_url }}"
+                alt="{{ entry.image_alt | default: entry.citation }}"
+                loading="lazy"
+              >
+            {% endif %}
 
-<div class="journal-container">  
-  <div class="journal-entry">
-    <span class="journal-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., Polini, A., Re, B., & Tiezzi, F. (2023). "A systematic literature review on IoT-aware business process modeling views, requirements and notations". <em>Software and Systems Modeling</em>, 14(1), 1–36.
-    <br>
-    [<a href="https://link.springer.com/article/10.1007/s10270-022-01049-2" target="_blank">Link</a>] [<a href="../assets/file/SLR2.pdf" target="_blank">Pre-Print</a>]
-  </div>
-  <img class="journal-image" src="../images/journal/sosym.jpg">
-</div>
+            <div class="publication-item__content">
+              <span class="publication-item__text">
+                <span class="{{ section.icon }}-icon"></span>
+                {{ entry.citation | markdownify | remove: '<p>' | remove: '</p>' }}
+              </span>
 
-</div>
+              {% if entry.links %}
+                <span class="publication-item__links">
+                  {% for link in entry.links %}
+                    {% if link.url and link.url != blank %}
+                      {% if link.url contains '://' %}
+                        {% assign href = link.url %}
+                      {% else %}
+                        {% assign href = link.url | relative_url %}
+                      {% endif %}
+                      <a class="publication-item__link" href="{{ href }}"{% if link.new_tab %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>
+                    {% endif %}
+                  {% endfor %}
+                </span>
+              {% endif %}
 
-<div class="publication-section" data-category="conferences" markdown="1">
-
-## Conferences
-
-<div class="conference-entry">
-  <span class="conference-icon"></span> Baresi, L., <strong>Compagnucci, I.</strong>, Lestingi, L., & Trubiani, C. (2026). Adaptive Toggling of Architectural Patterns for Federated Learning. In International Conference on Software Engineering for Adaptive and Self-Managing Systems (SEAMS). 2026. Rio de Janeiro, Brasil, 13 - 14 April 2026.
-  <br>
-  [<a target="_blank">Link</a>] [<a href="../assets/file/SEAMS26.pdf" target="_blank">Accepted Manuscript</a>] [<a target="_blank">Slides</a>]
-</div>
-
-<div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025). Performance Analysis of Architectural Patterns for Federated Learning Systems. In the 22nd IEEE International Conference on Software Architecture (ICSA). 2025. Odense, Denmark, 31 March - 4 April 2025.
-  <br>
-  [<a href="https://ieeexplore.ieee.org/abstract/document/10978942" target="">Link</a>] [<a href="../assets/file/FL.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/ICSA25.pdf" target="_blank">Slides</a>]
-  <span class="badge-section">
-      <img src="../assets/images/ORO.png" class="badge-icon" style="width: 20px; height: auto;" />
-      <img src="../assets/images/ROR.png" class="badge-icon" style="width: 20px; height: auto;" />
-  </span>
-</div>
-
-</div>
-
-<div class="publication-section" data-category="workshops" markdown="1">
-
-## Workshops and Other Venues
-
-<div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, & Trubiani, C. (2025). Towards AI Agents for Selecting Architectural Patterns in Federated Learning Systems. In the 4th Conference on System and Service Quality. QualITA 2025. Catania, Italy, 25 June and 27 June 2025.
-  <br>
-  [<a href="https://www.scopus.com/pages/publications/105021831512" target="_blank">Link</a>] [<a href="" href="../assets/file/QualITA.pdf">PDF</a>] [<a href="" target="_blank">Slides</a>]
-</div>
-
-<div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Re, B., Serral Asensio E., & Snoeck, M. (2024). "A Digital Process Twin Conceptual Architecture for What-If Process Analysis" In Enterprise Design, Operations, and Computing. EDOC 2024 Workshops, Wien, Austria, September 10-13, 2024, Springer Nature Switzerland.
-  <br>
-  [<a href="https://link.springer.com/chapter/10.1007/978-3-031-79059-1_23" target="_blank">Link</a>] [<a href="../assets/file/MIDAS.pdf" target="_blank">Accepted Manuscript</a>] [<a href="../assets/EDOC24.pdf" target="_blank">Slides</a>]
-</div>
-
-<div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., & Re, B. (2023). BPMN inspector: A tool for Extracting Features from BPMN Models. In Proceedings of the Best Dissertation Award, Doctoral Consortium, and Demonstration & Resources Forum at BPM 2023 co-located with 21st International Conference on Business Process Management (BPM 2023), Utrecht, The Netherlands, September 11th to 15th, (Vol. 3469,pp. 122–126). CEUR-WS.org.
-  <br>
-  [<a href="https://ceur-ws.org/Vol-3469/paper-22.pdf" target="_blank">PDF</a>]
-  🏆 <a href="https://ivancomp.github.io/awards/" target="_blank">BPM 2023 Best Paper Award of the Demonstrations and Resources Forum</a>
-</div>
-
-<div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Snoeck, M., & Serral Asensio E., (2023). Supporting Digital Twins Systems Integrating the MERODE Approach. In Proceedings of the 26th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings, MODELS-C 2023, Västerås, Sweden, October 1-6, (pp. 449–458).
-  <br>
-  [<a href="https://ieeexplore.ieee.org/abstract/document/10350700" target="_blank">Link</a>] [<a href="../assets/file/MODELS1.pdf" target="_blank">Accepted Manuscript</a>]
-</div>
-
-<div class="conference-entry">
-  <span class="conference-icon"></span> Vemuri, P., Poelmans, S., <strong>Compagnucci, I.</strong>, & Snoeck, M. (2023). Using Formative Assessment and Feedback to Train Novice Modelers in Business Process Modeling. In Proceedings of the 26th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings, MODELS-C 2023, Västerås, Sweden, October 1-6, (pp. 449–458).
-  <br>
-  [<a href="https://ieeexplore.ieee.org/abstract/document/10350391" target="_blank">Link</a>] [<a href="../assets/file/MODELS2.pdf" target="_blank">Accepted Manuscript</a>]
-</div>
-
-<div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., & Re, B. (2021). Trends on the Usage of BPMN 2.0 from Publicly Available Repositories. In Perspectives in Business Informatics Research - 20th International Conference on Business Informatics Research, BIR 2021, Vienna, Austria, September 22-24, 2021. (Vol. 430,pp. 84–99).
-  <br>
-  [<a href="https://link.springer.com/chapter/10.1007/978-3-030-87205-2_6" target="_blank">Link</a>] [<a href="../assets/file/BIR.pdf" target="_blank">Accepted Manuscript</a>]
-</div>
-
-<div class="conference-entry">
-  <span class="conference-icon"></span> <strong>Compagnucci, I.</strong>, Corradini, F., Fornari, F., Polini, A., Re, B., & Tiezzi, F. (2020). Modelling Notations for IoT-Aware Business Processes: A Systematic Literature Review. In Business Process Management Workshops - BPM 2020 International Workshops, Seville, Spain, September 13-18, 2020. (Vol. 397, pp. 108–121).
-  <br>
-  [<a href="https://link.springer.com/chapter/10.1007/978-3-030-66498-5_9" target="_blank">Link</a>] [<a href="../assets/file/SLR1.pdf" target="_blank">Accepted Manuscript</a>]
-</div>
-
-</div>
-
-<div class="publication-section" data-category="data" markdown="1">
-
-## Data and Artifacts
-
-<div class="data-entry">
-  <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: Experimenting Architectural Patterns in Federated Learning Systems"
-  <br>
-  Zenodo DOI:  10.5281/zenodo.14938910
-  <br>
-  [<a href="https://zenodo.org/records/14938910" target="_blank">Link</a>]
-</div>
-
-<div class="data-entry">
-  <span class="data-icon"></span> <strong>Compagnucci, I.</strong>, Pinciroli, R., & Trubiani, C. (2025) "Open Science Artifact: Performance Analysis of Architectural Patterns for Federated Learning Systems"
-  <br>
-  Zenodo DOI:  10.5281/zenodo.14539962
-  <br>
-  [<a href="https://zenodo.org/records/14539962" target="_blank">Link</a>]
-</div>
-
+              {% if entry.badges %}
+                <span class="publication-item__badges">
+                  {% for badge in entry.badges %}
+                    <img class="publication-item__badge" src="{{ badge.image | relative_url }}" alt="{{ badge.alt }}">
+                  {% endfor %}
+                </span>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
 </div>
 
 <script>

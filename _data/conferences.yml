@@ -1,89 +1,178 @@
-# International Conference on Software Engineering for Adaptive and Self-Managing Systems (SEAMS '26)
-- name: "SEAMS '26"
+- id: "seams-2026"
+  name: "SEAMS '26"
   description: "International Conference on Software Engineering for Adaptive and Self-Managing Systems"
   year: 2026
   place: "Rio de Janeiro, Brazil"
-  lat: -22.9068     # Rio de Janeiro, Brazil
+  lat: -22.9068
   lng: -43.1729
-  image: /assets/images/conferences/seams-2026/cover.jpg
   url: /conferences/seams-2026/
+  summary: >-
+    Presentation of the paper *Adaptive Toggling of Architectural Patterns for
+    Federated Learning*, focused on adaptive architectural decisions for
+    Federated Learning systems.
+  resources:
+    - label: "Accepted Manuscript"
+      url: "/assets/file/SEAMS26.pdf"
+      new_tab: true
+    - label: "Publications"
+      url: "/publications/"
 
-# 4th Conference on System and Service Quality (QualITA'25)
-- name: "QualITA'25"
+- id: "qualita-2025"
+  name: "QualITA'25"
   description: "4th Conference on System and Service Quality"
   year: 2025
   place: "Catania, Italy"
-  lat: 37.5079     # Catania, Italy
+  lat: 37.5079
   lng: 14.6830
-  image: /assets/images/conferences/qualita-2025/cover.jpg
   url: /conferences/qualita-2025/
+  summary: >-
+    Workshop presentation on AI agents for selecting architectural patterns in
+    Federated Learning systems.
+  resources:
+    - label: "Index Record"
+      url: "https://www.scopus.com/pages/publications/105021831512"
+      new_tab: true
+    - label: "Publications"
+      url: "/publications/"
 
-# 22nd IEEE International Conference on Software Architecture (ICSA '25)
-- name: "ICSA '25"
+- id: "icsa-2025"
+  name: "ICSA '25"
   description: "22nd IEEE International Conference on Software Architecture"
   year: 2025
   place: "Odense, Denmark"
-  lat: 55.4038     # Odense, Denmark
+  lat: 55.4038
   lng: 10.4024
-  image: /assets/images/conferences/icsa-2025/cover.jpg
   url: /conferences/icsa-2025/
+  summary: >-
+    Conference paper on the performance analysis of architectural patterns for
+    Federated Learning systems.
+  resources:
+    - label: "Proceedings"
+      url: "https://ieeexplore.ieee.org/abstract/document/10978942"
+      new_tab: true
+    - label: "Accepted Manuscript"
+      url: "/assets/file/FL.pdf"
+      new_tab: true
+    - label: "Publications"
+      url: "/publications/"
 
-# 28th International Conference on Enterprise Design, Operations, and Computing (EDOC '24)
-- name: "EDOC '24"
+- id: "edoc-2024"
+  name: "EDOC '24"
   description: "28th International Conference on Enterprise Design, Operations, and Computing"
   year: 2024
   place: "Vienna, Austria"
-  lat: 48.2082     # Vienna, Austria
+  lat: 48.2082
   lng: 16.3738
-  image: /assets/images/conferences/edoc-2024/cover.jpg
   url: /conferences/edoc-2024/
+  summary: >-
+    Workshop paper on a Digital Process Twin conceptual architecture for
+    what-if process analysis.
+  resources:
+    - label: "Chapter"
+      url: "https://link.springer.com/chapter/10.1007/978-3-031-79059-1_23"
+      new_tab: true
+    - label: "Accepted Manuscript"
+      url: "/assets/file/MIDAS.pdf"
+      new_tab: true
+    - label: "Publications"
+      url: "/publications/"
 
-# 21st International Conference on Business Process Management (BPM '23)
-- name: "BPM '23"
+- id: "bpm-2023"
+  name: "BPM '23"
   description: "21st International Conference on Business Process Management"
   year: 2023
   place: "Utrecht, Netherlands"
-  lat: 52.0907     # Utrecht, Netherlands
+  lat: 52.0907
   lng: 5.1214
-  image: /assets/images/conferences/bpm-2023/cover.jpg
   url: /conferences/bpm-2023/
+  summary: >-
+    Demonstration of BPMN Inspector, awarded as Best Paper in the Demonstrations
+    and Resources Forum at BPM 2023.
+  resources:
+    - label: "Tool Paper PDF"
+      url: "https://ceur-ws.org/Vol-3469/paper-22.pdf"
+      new_tab: true
+    - label: "Award"
+      url: "/awards/"
+    - label: "Tool Details"
+      url: "/tools/bpmn-inspector/"
 
-# 26th International Conference on Model-Driven Engineering Languages and Systems (MODELS '23)
-- name: "MODELS '23"
+- id: "models-2023"
+  name: "MODELS '23"
   description: "26th ACM/IEEE International Conference on Model-Driven Engineering Languages and Systems"
   year: 2023
-  place: "Västerås, Sweden"
-  lat: 59.6099     # Västerås, Sweden
+  place: "Vasteras, Sweden"
+  lat: 59.6099
   lng: 16.5448
-  image: /assets/images/conferences/models-2023/cover.jpg
   url: /conferences/models-2023/
+  summary: >-
+    Companion paper on supporting Digital Twins systems by integrating the
+    MERODE approach.
+  resources:
+    - label: "Proceedings"
+      url: "https://ieeexplore.ieee.org/abstract/document/10350700"
+      new_tab: true
+    - label: "Accepted Manuscript"
+      url: "/assets/file/MODELS1.pdf"
+      new_tab: true
+    - label: "Publications"
+      url: "/publications/"
 
-# 20th International Conference on Business Informatics Research (BIR '21)
-- name: "BIR '21"
+- id: "bir-2021"
+  name: "BIR '21"
   description: "20th International Conference on Business Informatics Research"
   year: 2021
   place: "Vienna, Austria"
-  lat: 47.2082     # Vienna, Austria
-  lng: 15.3738
-  image: /assets/images/conferences/bir-2021/cover.jpg
+  lat: 48.2082
+  lng: 16.3738
   url: /conferences/bir-2021/
+  summary: >-
+    Conference paper on BPMN 2.0 usage trends mined from publicly available
+    repositories.
+  resources:
+    - label: "Chapter"
+      url: "https://link.springer.com/chapter/10.1007/978-3-030-87205-2_6"
+      new_tab: true
+    - label: "Accepted Manuscript"
+      url: "/assets/file/BIR.pdf"
+      new_tab: true
+    - label: "Publications"
+      url: "/publications/"
 
-# 18th International Conference on Business Process Management (BPM '20)
-- name: "BPM '20"
+- id: "bpm-2020"
+  name: "BPM '20"
   description: "18th International Conference on Business Process Management"
   year: 2020
   place: "Seville, Spain"
-  lat: 37.3891     # Seville, Spain
+  lat: 37.3891
   lng: -5.9845
-  image: /assets/images/conferences/bpm-2020/cover.jpg
   url: /conferences/bpm-2020/
+  summary: >-
+    Workshop paper presenting a systematic literature review on modelling
+    notations for IoT-aware business processes.
+  resources:
+    - label: "Chapter"
+      url: "https://link.springer.com/chapter/10.1007/978-3-030-66498-5_9"
+      new_tab: true
+    - label: "Accepted Manuscript"
+      url: "/assets/file/SLR1.pdf"
+      new_tab: true
+    - label: "Publications"
+      url: "/publications/"
 
-# Visiting Research Period — KU Leuven (Brussels)
-- name: "Visiting Research – KU Leuven (LIRIS)"
-  description: "Visiting Ph.D. period with LIRIS at KU Leuven (Digital Twins & Learning Analytics), Mar–Jul 2023"
+- id: "ku-leuven-2023"
+  name: "Visiting Research - KU Leuven (LIRIS)"
+  description: "Visiting Ph.D. period with LIRIS at KU Leuven on Digital Twins and Learning Analytics"
   year: 2023
   place: "Brussels, Belgium"
-  lat: 50.8503     # Brussels, Belgium
+  lat: 50.8503
   lng: 4.3517
-  image: /assets/images/conferences/ku-leuven-2023/cover.jpg
   url: /conferences/ku-leuven-2023/
+  summary: >-
+    Visiting research period carried out from March to July 2023, focused on
+    Digital Twins and Learning Analytics research activities.
+  resources:
+    - label: "About Me"
+      url: "/"
+    - label: "Publications"
+      url: "/publications/"

@@ -52,17 +52,26 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl %}
+    {% assign has_paper = false %}
+    {% assign has_slides = false %}
+    {% if post.paperurl and post.paperurl != blank %}
+      {% assign has_paper = true %}
+    {% endif %}
+    {% if post.slidesurl and post.slidesurl != blank %}
+      {% assign has_slides = true %}
+    {% endif %}
+
+    {% if post.citation and has_paper and has_slides %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation and post.paperurl %}
+    {% elsif post.citation and has_paper %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl %}
+    {% elsif post.citation and has_slides %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }}</p>
-    {% elsif post.paperurl %}
+    {% elsif has_paper %}
       <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl %}
+    {% elsif has_slides %}
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% endif %}
 

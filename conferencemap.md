@@ -52,7 +52,6 @@ permalink: /conferencemap/
       place: {{ c.place | jsonify }},
       lat: {{ c.lat }},
       lng: {{ c.lng }},
-      image: {{ c.image | relative_url | jsonify }},
       url:   {{ c.url   | relative_url | jsonify }}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
@@ -94,7 +93,7 @@ permalink: /conferencemap/
         <div><strong>${d.name}</strong></div>
         ${d.description ? `<div style="opacity:.85">${d.description}</div>` : ``}
         ${d.place ? `<div><strong>${d.place}</strong>, (${d.year}) </div>` : ``}
-        <div style="margin-top:4px;opacity:.7">See slideshow</div>
+        <div style="margin-top:4px;opacity:.7">Open details</div>
       </div>
     `)
     .onPointClick(d => { if (d && d.url) window.location.href = d.url; });

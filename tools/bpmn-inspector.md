@@ -31,6 +31,6 @@ Systems Engineering_, 66, 43–66.
 
 <span class="conference-icon"></span> **Compagnucci, I.**, Corradini, F., Fornari, F., & Re, B. (2023). BPMN inspector: A tool for Extracting Features from BPMN Models. In Proceedings of the Best Dissertation Award, Doctoral Consortium, and
 Demonstration & Resources Forum at BPM 2023 co-located with 21st International Conference on Business Process Management (BPM 2023), Utrecht, The Netherlands, September 11th to 15th, (Vol. 3469,pp. 122–126). CEUR-WS.org. <br>
-🏆 [BPM 2023 Best Paper Award of the Demonstrations and Resources Forum](https://ivancomp.github.io/awards/)
+🏆 [BPM 2023 Best Paper Award of the Demonstrations and Resources Forum]({{ '/awards/' | relative_url }})
 <br>
 [[PDF](https://ceur-ws.org/Vol-3469/paper-22.pdf){:target="_blank"}]

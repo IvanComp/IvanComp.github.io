@@ -1,32 +1,61 @@
 ---
 layout: single
 permalink: /activities/
+title: "Research Activities"
+classes: wide
 redirect_from: 
   - /activities/
   - /activities.html
 ---
 
-# Research Activities
+<div class="activities-page">
+  <section class="activity-section">
+    <h2>Organizing Committee</h2>
+    <ul class="activity-list">
+      {% for item in site.data.activities.organizing_committee %}
+        <li class="activity-item">
+          <span class="activity-item__text">
+            <span class="activity-item__title">{{ item.title }}</span>
+            {% if item.short_name %}
+              <span class="activity-item__label">({{ item.short_name }})</span>
+            {% endif %}
+            <span class="activity-item__venue">{{ item.venue }}</span>
+            <a class="activity-item__link" href="{{ item.url }}" target="_blank" rel="noopener">Link</a>
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 
-## Organizing Committee
+  <section class="activity-section">
+    <h2>Program Committee</h2>
+    <ul class="activity-list">
+      {% for item in site.data.activities.program_committee %}
+        <li class="activity-item">
+          <span class="activity-item__text">
+            <span class="activity-item__title">{{ item.title }}</span>
+            {% if item.short_name %}
+              <span class="activity-item__label">({{ item.short_name }})</span>
+            {% endif %}
+            <span class="activity-item__venue">{{ item.venue }}</span>
+            <a class="activity-item__link" href="{{ item.url }}" target="_blank" rel="noopener">Link</a>
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 
-- 2nd International Workshop on Software Architecture for Generative AI (SAGAI) at **ICSA'26** [Link](https://www.iese.fraunhofer.de/en/events/sagai.html)
-
-## Program Committee
-
-- 4th International Workshop on Business Processes Meet the Internet of Things (BP-Meet-IoT) at **CBI/EDOC'26** [Link](https://bp-meet-iot.github.io/)
-- 4th International Workshop on Modelling and Implementation of Digital Twins for Complex Systems (MIDas4CS) at **CAiSE'26** [Link](https://midas4cs.github.io/2026/)
-- 1st International Workshop on Engineering Autonomous Systems Intelligence (EASI) at **CAiSE'26** [Link](https://easi-workshop.github.io/)
-- 1st International Workshop on AI Code QUality, Integrity & REliability (ACQUIRE) at **EDCC'26** [Link](https://acquire-workshop.github.io/2026/)
-- 1st International Workshop on Software Architecture for Data-Intensive Systems (SADIS) at **ECSA'25** [Link](https://sadis2025.smartarch.cz/index.html)
-
-## Journal Reviews
-
-- <span style="display:inline-block;background:#A4CF63;color:#333;font-weight:bold;font-size:10px;border-radius:3px;padding:2px 5px;margin-left:4px;">Q1</span> [**Future Generation Computer Systems**](https://www.sciencedirect.com/journal/future-generation-computer-systems)
-- <span style="display:inline-block;background:#A4CF63;color:#333;font-weight:bold;font-size:10px;border-radius:3px;padding:2px 5px;margin-left:4px;">Q1</span> [**Information and Software Technology**](https://www.sciencedirect.com/journal/information-and-software-technology)
-- <span style="display:inline-block;background:#A4CF63;color:#333;font-weight:bold;font-size:10px;border-radius:3px;padding:2px 5px;margin-left:4px;">Q1</span> [**Information Fusion**](https://www.sciencedirect.com/journal/information-fusion)
-- <span style="display:inline-block;background:#A4CF63;color:#333;font-weight:bold;font-size:10px;border-radius:3px;padding:2px 5px;margin-left:4px;">Q1</span> [**Internet of Things**](https://www.sciencedirect.com/journal/internet-of-things)
-- <span style="display:inline-block;background:#E8D559;color:#333;font-weight:bold;font-size:10px;border-radius:3px;padding:2px 5px;margin-left:4px;">Q2</span> [**Displays**](https://www.sciencedirect.com/journal/displays)
-- <span style="display:inline-block;background:#E8D559;color:#333;font-weight:bold;font-size:10px;border-radius:3px;padding:2px 5px;margin-left:4px;">Q2</span> [**Cogent Business & Management**](https://www.tandfonline.com/journals/oabm20)
-- <span style="display:inline-block;background:#FBA353;color:#333;font-weight:bold;font-size:10px;border-radius:3px;padding:2px 5px;margin-left:4px;">Q3</span> [**Science of Computer Programming**](https://www.sciencedirect.com/journal/science-of-computer-programming)
-- <span style="display:inline-block;background:#FBA353;color:#333;font-weight:bold;font-size:10px;border-radius:3px;padding:2px 5px;margin-left:4px;">Q3</span> [**SoftwareX**](https://www.sciencedirect.com/journal/softwarex)
+  <section class="activity-section">
+    <h2>Journal Reviews</h2>
+    <ul class="activity-list">
+      {% for item in site.data.activities.journal_reviews %}
+        <li class="activity-item activity-item--review">
+          <span class="activity-item__text">
+            <span class="review-pill review-pill--{{ item.quartile | downcase }}">{{ item.quartile }}</span>
+            <a class="activity-item__journal" href="{{ item.url }}" target="_blank" rel="noopener"><strong>{{ item.journal }}</strong></a>
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>

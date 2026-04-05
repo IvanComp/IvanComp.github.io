@@ -1,0 +1,20 @@
+{% assign conference = include.conference %}
+
+{% if conference %}
+  <div class="conference-detail">
+    <p class="conference-detail__meta">
+      <span class="conference-detail__pill">{{ conference.year }}</span>
+      <span class="conference-detail__pill">{{ conference.place }}</span>
+    </p>
+
+    <p class="conference-detail__description">{{ conference.description }}</p>
+
+    {% if conference.summary %}
+      <div class="conference-detail__summary">
+        {{ conference.summary | markdownify }}
+      </div>
+    {% endif %}
+
+    {% include resource_links.html links=conference.resources class_name="conference-detail__links" %}
+  </div>
+{% endif %}
