@@ -12,10 +12,9 @@ Hello! I’m <strong>Ivan Compagnucci</strong>, a PostDoctoral Researcher at Gra
 
 I received my M.Sc. in Computer Science (May 2020) and my Ph.D. in Computer Science and Mathematics (July 2024) from the University of Camerino. My doctoral disseration proposed an approach to support IoT-Enhanced Business Processes with the Digital Twin paradigm.
 
-My research covers several topics: From the <strong>Business Process Management</strong> discipline (modeling and monitoring business processes that integrate features, data and concepts concerning the Internet of Things world) to integrating the concept of Digital Twin into business processes (<strong>Digital Process Twin</strong>). Recently, I started to work on <strong>AI for Software Engineering</strong>, studying the interplay between architectural patterns and AI agents within Federated Learning systems, and how these elements jointly shape the design and performance of AI-driven software architectures.
+My research covers several topics, ranging from <strong>Business Process Management</strong>, where I have worked on the modeling and analysis of IoT-enhanced business processes and on <strong>Digital Process Twins</strong>, to <strong>AI for Software Engineering</strong>. More recently, I have focused on software architecture and the performance of AI-augmented and agentic systems, especially in the context of Federated Learning.
 
 [Academic CV](../files/IvanCompagnucciCV.pdf)
-
 
 # News
 
@@ -28,12 +27,6 @@ My research covers several topics: From the <strong>Business Process Management<
     loading="lazy">
   </iframe>
 </div>
-
-
-
-
-
-
 
 <script src="https://unpkg.com/globe.gl@2.29.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
