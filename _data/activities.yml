@@ -4,7 +4,20 @@ organizing_committee:
     venue: "ICSA'26"
     url: "https://www.iese.fraunhofer.de/en/events/sagai.html"
 
+#- title: "1st International Workshop on Software Architecture for Generative AI"
+  #  short_name: "SAGAI"
+  #  venue: "ICSA'26"
+  #  url: "https://www.iese.fraunhofer.de/en/events/sagai.html"
+
 program_committee:
+  - title: "21st International Conference on Software Engineering Advances (ICSEA)"
+    short_name: "ICSEA"
+    venue: "SoftNet'26"
+    url: "https://www.iaria.org/conferences2026/ComICSEA26.html"
+  - title: "The 2026 IEEE International Conference on Digital Twin"
+    short_name: "DT'26"
+    venue: "IEEE Smart World Congress 2026"
+    url: "https://swc-ieee-2026.github.io/digitaltwin/"
   - title: "4th International Workshop on Business Processes Meet the Internet of Things"
     short_name: "BP-Meet-IoT"
     venue: "CBI/EDOC'26"
