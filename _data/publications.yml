@@ -79,6 +79,12 @@ sections:
     icon: "conference"
     entries:
       - citation: >-
+          Silvetti, S., **Compagnucci, I.**, Cairoli, F., Trubiani, C., &
+          Nenzi, L. (2026). Time Robustness for Point-Based Semantics of
+          Metric Interval Temporal Logic. In *23rd International Conference on
+          Principles of Knowledge Representation and Reasoning (KR)*. Lisbon,
+          Portugal, 20-23 July 2026.
+      - citation: >-
           Baresi, L., **Compagnucci, I.**, Lestingi, L., & Trubiani, C. (2026).
           Adaptive Toggling of Architectural Patterns for Federated Learning.
           In *International Conference on Software Engineering for Adaptive
