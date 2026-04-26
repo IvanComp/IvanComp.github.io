@@ -41,6 +41,9 @@ program_committee:
 
 journal_reviews:
   - quartile: "Q1"
+    journal: "Journal of Systems and Software"
+    url: "https://www.sciencedirect.com/journal/journal-of-systems-and-software"
+  - quartile: "Q1"
     journal: "Future Generation Computer Systems"
     url: "https://www.sciencedirect.com/journal/future-generation-computer-systems"
   - quartile: "Q1"

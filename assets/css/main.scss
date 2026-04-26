@@ -199,6 +199,8 @@
 }
 
 .activity-item__text {
+  display: flex;
+  align-items: baseline;
   font-size: 0.92rem;
   line-height: 1.38;
   color: #1f2937;
@@ -206,10 +208,15 @@
 
 .activity-item__title {
   font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
 }
 
 .activity-item__label {
   margin-left: 0.15rem;
+  flex-shrink: 0;
 }
 
 .activity-item__venue {
@@ -217,6 +224,7 @@
   color: #64748b;
   font-size: 0.83rem;
   font-weight: 600;
+  flex-shrink: 0;
 }
 
 .activity-item__venue::before {
@@ -232,6 +240,7 @@
   font-weight: 600;
   white-space: nowrap;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .activity-item__link::before {
@@ -253,6 +262,10 @@
 .activity-item__journal {
   color: inherit;
   text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
 }
 
 .activity-item__journal:hover {
@@ -268,6 +281,7 @@
   font-weight: 700;
   color: #333;
   vertical-align: baseline;
+  flex-shrink: 0;
 }
 
 .review-pill--q1 {
