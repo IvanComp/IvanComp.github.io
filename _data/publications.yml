@@ -84,6 +84,10 @@ sections:
           Metric Interval Temporal Logic. In *23rd International Conference on
           Principles of Knowledge Representation and Reasoning (KR)*. Lisbon,
           Portugal, 20-23 July 2026.
+        links:
+          - label: "Accepted Manuscript"
+            url: "/assets/file/KR.pdf"
+            new_tab: true
       - citation: >-
           Baresi, L., **Compagnucci, I.**, Lestingi, L., & Trubiani, C. (2026).
           Adaptive Toggling of Architectural Patterns for Federated Learning.
@@ -91,7 +95,7 @@ sections:
           and Self-Managing Systems (SEAMS)*. Rio de Janeiro, Brazil,
           13-14 April 2026.
         links:
-          - label: "Accepted Manuscript"
+          - label: "Pre-Print"
             url: "/assets/file/SEAMS26.pdf"
             new_tab: true
       - citation: >-
@@ -103,7 +107,7 @@ sections:
           - label: "Link"
             url: "https://ieeexplore.ieee.org/abstract/document/10978942"
             new_tab: true
-          - label: "Accepted Manuscript"
+          - label: "Pre-Print"
             url: "/assets/file/FL.pdf"
             new_tab: true
         badges:
@@ -125,6 +129,9 @@ sections:
           - label: "Link"
             url: "https://www.scopus.com/pages/publications/105021831512"
             new_tab: true
+          - label: "[pdf]"
+            url: "https://ceur-ws.org/Vol-4080/paper2.pdf"
+            new_tab: true
       - citation: >-
           **Compagnucci, I.**, Re, B., Serral Asensio, E., & Snoeck, M. (2024).
           "A Digital Process Twin Conceptual Architecture for What-If Process
@@ -134,7 +141,7 @@ sections:
           - label: "Link"
             url: "https://link.springer.com/chapter/10.1007/978-3-031-79059-1_23"
             new_tab: true
-          - label: "Accepted Manuscript"
+          - label: "Pre-Print"
             url: "/assets/file/MIDAS.pdf"
             new_tab: true
       - citation: >-
@@ -158,7 +165,7 @@ sections:
           - label: "Link"
             url: "https://ieeexplore.ieee.org/abstract/document/10350700"
             new_tab: true
-          - label: "Accepted Manuscript"
+          - label: "Pre-Print"
             url: "/assets/file/MODELS1.pdf"
             new_tab: true
       - citation: >-
@@ -171,7 +178,7 @@ sections:
           - label: "Link"
             url: "https://ieeexplore.ieee.org/abstract/document/10350391"
             new_tab: true
-          - label: "Accepted Manuscript"
+          - label: "Pre-Print"
             url: "/assets/file/MODELS2.pdf"
             new_tab: true
       - citation: >-
@@ -184,7 +191,7 @@ sections:
           - label: "Link"
             url: "https://link.springer.com/chapter/10.1007/978-3-030-87205-2_6"
             new_tab: true
-          - label: "Accepted Manuscript"
+          - label: "Pre-Print"
             url: "/assets/file/BIR.pdf"
             new_tab: true
       - citation: >-
@@ -197,7 +204,7 @@ sections:
           - label: "Link"
             url: "https://link.springer.com/chapter/10.1007/978-3-030-66498-5_9"
             new_tab: true
-          - label: "Accepted Manuscript"
+          - label: "Pre-Print"
             url: "/assets/file/SLR1.pdf"
             new_tab: true
 
