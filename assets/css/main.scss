@@ -165,7 +165,7 @@
 
 .activities-page,
 .publications-page {
-  max-width: 100%;
+  max-width: 1080px;
 }
 
 .activity-list {
@@ -597,8 +597,4 @@
     width: 34px;
     max-height: 48px;
   }
-}
-
-#main.wide {
-  max-width: 1500px; /* Allow wide pages to be much wider to fit long content on one line */
 }
