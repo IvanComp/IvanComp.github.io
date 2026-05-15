@@ -20,7 +20,12 @@ redirect_from:
               <span class="activity-item__label">({{ item.short_name }})</span>
             {% endif %}
             <span class="activity-item__venue">{{ item.venue }}</span>
-            <a class="activity-item__link" href="{{ item.url }}" target="_blank" rel="noopener">Link</a>
+            {% if item.url %}
+              <a class="activity-item__link" href="{{ item.url }}" target="_blank" rel="noopener">Link</a>
+            {% endif %}
+            {% if item.co_organizers %}
+              <span class="activity-item__organizers">Co-organizers: {{ item.co_organizers }}</span>
+            {% endif %}
           </span>
         </li>
       {% endfor %}
@@ -38,7 +43,12 @@ redirect_from:
               <span class="activity-item__label">({{ item.short_name }})</span>
             {% endif %}
             <span class="activity-item__venue">{{ item.venue }}</span>
-            <a class="activity-item__link" href="{{ item.url }}" target="_blank" rel="noopener">Link</a>
+            {% if item.url %}
+              <a class="activity-item__link" href="{{ item.url }}" target="_blank" rel="noopener">Link</a>
+            {% endif %}
+            {% if item.co_organizers %}
+              <span class="activity-item__organizers">Co-organizers: {{ item.co_organizers }}</span>
+            {% endif %}
           </span>
         </li>
       {% endfor %}

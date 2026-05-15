@@ -1,4 +1,12 @@
 organizing_committee:
+  - title: "3rd International Workshop on Software Architecture and Generative AI"
+    short_name: "SAGAI"
+    venue: "ICSA'27"
+    co_organizers: "Rodrigo Falcão, Rafael Capilla, Frank Elberzhager, Pablo Oliveira Antonino and Ivan Compagnucci"
+  - title: "1st International Workshop on Architecting Agentic AI Systems"
+    short_name: "AgentArch"
+    venue: "ICSA'27"
+    co_organizers: "Ziqi Xu, Ivan Compagnucci, Man-Fai Leung, Shuo Yu, Sajal K. Das and Feng Xia"
   - title: "2nd International Workshop on Software Architecture for Generative AI"
     short_name: "SAGAI"
     venue: "ICSA'26"
