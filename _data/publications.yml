@@ -16,6 +16,13 @@ sections:
     icon: "journal"
     entries:
       - citation: >-
+          **Compagnucci, I.**, Lu, Q., & Trubiani, C. (2026).
+          "Agentic Runtime Reconfiguration of Architectural Patterns in
+          Federated Learning".
+          *Journal of Systems and Software*. To appear.
+        image: "/images/journal/jss.jpg"
+        image_alt: "Journal of Systems and Software"
+      - citation: >-
           **Compagnucci, I.**, Pinciroli, R., & Trubiani, C. (2026).
           "Experimenting Architectural Patterns in Federated Learning Systems".
           *Journal of Systems and Software*, 232, 112655.

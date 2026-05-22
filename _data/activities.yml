@@ -13,11 +13,6 @@ organizing_committee:
     url: "https://www.iese.fraunhofer.de/en/events/sagai.html"
     co_organizers: "Rodrigo Falcão, Rafael Capilla, Frank Elberzhager, Pablo Oliveira Antonino and Ivan Compagnucci"
 
-#- title: "1st International Workshop on Software Architecture for Generative AI"
-  #  short_name: "SAGAI"
-  #  venue: "ICSA'26"
-  #  url: "https://www.iese.fraunhofer.de/en/events/sagai.html"
-
 program_committee:
   - title: "21st International Conference on Software Engineering Advances (ICSEA)"
     short_name: "ICSEA"
