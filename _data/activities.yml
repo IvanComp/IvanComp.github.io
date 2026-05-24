@@ -14,7 +14,7 @@ organizing_committee:
     co_organizers: "Rodrigo Falcão, Rafael Capilla, Frank Elberzhager, Pablo Oliveira Antonino and Ivan Compagnucci"
 
 program_committee:
-  - title: "21st International Conference on Software Engineering Advances (ICSEA)"
+  - title: "21st International Conference on Software Engineering Advances"
     short_name: "ICSEA"
     venue: "SoftNet'26"
     url: "https://www.iaria.org/conferences2026/ComICSEA26.html"
