@@ -1,0 +1,62 @@
+{
+  "/Users/ivan/Desktop/Site/assets/js/three.core.min.js": {
+    "mtime": 1731081653.0,
+    "ast_hash": "6f058a86741c42580ef586a80cd962eb",
+    "semantic_hash": "6f058a86741c42580ef586a80cd962eb"
+  },
+  "/Users/ivan/Desktop/Site/assets/js/getStarfield.js": {
+    "mtime": 1716322626.0,
+    "ast_hash": "2ca304edb721f7fce94d5a813544a754",
+    "semantic_hash": "2ca304edb721f7fce94d5a813544a754"
+  },
+  "/Users/ivan/Desktop/Site/assets/js/collapse.js": {
+    "mtime": 1730543866.0187235,
+    "ast_hash": "a7619de8449a047415cee4680b6a8b42",
+    "semantic_hash": "a7619de8449a047415cee4680b6a8b42"
+  },
+  "/Users/ivan/Desktop/Site/assets/js/chat_widget.js": {
+    "mtime": 1768651212.2196538,
+    "ast_hash": "a2da4b5a7072ae4c5e99a70729b080db",
+    "semantic_hash": "a2da4b5a7072ae4c5e99a70729b080db"
+  },
+  "/Users/ivan/Desktop/Site/assets/js/index.js": {
+    "mtime": 1716322626.0,
+    "ast_hash": "762be61e5b1c7738c0ac55e9214462ef",
+    "semantic_hash": "762be61e5b1c7738c0ac55e9214462ef"
+  },
+  "/Users/ivan/Desktop/Site/assets/js/_main.js": {
+    "mtime": 1730543866.0186522,
+    "ast_hash": "d37ed5ddd8a005addce906714163e3c7",
+    "semantic_hash": "d37ed5ddd8a005addce906714163e3c7"
+  },
+  "/Users/ivan/Desktop/Site/assets/js/main.min.js": {
+    "mtime": 1730543866.0189714,
+    "ast_hash": "7bd9b3567887bfe28c7d4969baca9b33",
+    "semantic_hash": "7bd9b3567887bfe28c7d4969baca9b33"
+  },
+  "/Users/ivan/Desktop/Site/assets/js/getFresnelMat.js": {
+    "mtime": 1716322626.0,
+    "ast_hash": "d5db613b9a9c440d402f565ca4cfbf02",
+    "semantic_hash": "d5db613b9a9c440d402f565ca4cfbf02"
+  },
+  "/Users/ivan/Desktop/Site/assets/js/OrbitControls.js": {
+    "mtime": 1731081653.0,
+    "ast_hash": "eea65b12949b3dd36c69dd1f64416037",
+    "semantic_hash": "eea65b12949b3dd36c69dd1f64416037"
+  },
+  "/Users/ivan/Desktop/Site/assets/js/papers_content.js": {
+    "mtime": 1768646881.6146054,
+    "ast_hash": "8b113463c4058d50ae93677694bc075b",
+    "semantic_hash": "8b113463c4058d50ae93677694bc075b"
+  },
+  "/Users/ivan/Desktop/Site/assets/js/plugins/jquery.greedy-navigation.js": {
+    "mtime": 1730543866.0190954,
+    "ast_hash": "eb398e2b4aa7da1447262339ea42bd3e",
+    "semantic_hash": "eb398e2b4aa7da1447262339ea42bd3e"
+  },
+  "/Users/ivan/Desktop/Site/assets/data/rag_data.json": {
+    "mtime": 1768648156.3610554,
+    "ast_hash": "e64bc8417c9dbf97d14dc3bdf99fed47",
+    "semantic_hash": "e64bc8417c9dbf97d14dc3bdf99fed47"
+  }
+}
