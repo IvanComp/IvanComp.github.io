@@ -140,7 +140,7 @@ sections:
           - label: "Link"
             url: "https://www.scopus.com/pages/publications/105021831512"
             new_tab: true
-          - label: "[pdf]"
+          - label: "PDF"
             url: "https://ceur-ws.org/Vol-4080/paper2.pdf"
             new_tab: true
       - citation: >-
