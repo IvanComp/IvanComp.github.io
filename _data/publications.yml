@@ -227,6 +227,14 @@ sections:
     icon: "data"
     entries:
       - citation: >-
+          **Compagnucci, I.**, Lu, Q., & Trubiani, C. (2026).
+          "Open Science Artifact: Agentic Runtime Reconfiguration of Architectural
+          Patterns in Federated Learning". Zenodo DOI: 10.5281/zenodo.20006358.
+        links:
+          - label: "Link"
+            url: "https://zenodo.org/records/20006358"
+            new_tab: true
+      - citation: >-
           **Compagnucci, I.**, Pinciroli, R., & Trubiani, C. (2025).
           "Open Science Artifact: Experimenting Architectural Patterns in
           Federated Learning Systems". Zenodo DOI: 10.5281/zenodo.14938910.
