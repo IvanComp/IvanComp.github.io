@@ -23,8 +23,11 @@ sections:
         image: "/images/journal/jss.jpg"
         image_alt: "Journal of Systems and Software"
         links:
-          - label: "Pre-Print"
-            url: "/assets/file/JJSAgentic.pdf"
+          - label: "Link"
+            url: "https://www.sciencedirect.com/science/article/pii/S0164121226001998"
+            new_tab: true
+          - label: "PDF"
+            url: "/assets/file/AgenticJSS.pdf"
             new_tab: true
       - citation: >-
           **Compagnucci, I.**, Pinciroli, R., & Trubiani, C. (2026).
