@@ -16,7 +16,7 @@ sections:
     icon: "journal"
     entries:
       - citation: >-
-          **Compagnucci Ivan**, Lu Qinghua, Trubiani Catia (2026).
+          **Compagnucci, I.**, Lu, Q., Trubiani, C. (2026).
           "Agentic Runtime Reconfiguration of Architectural Patterns in
           Federated Learning".
           *Journal of Systems and Software*, 240, 112966.
