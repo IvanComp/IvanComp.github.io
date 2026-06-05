@@ -29,11 +29,11 @@ const progressChat = document.getElementById('progress-chat');
 const statusDiv = document.getElementById('chat-status');
 
 // Event Listeners
-chatBubbleBtn.addEventListener('click', toggleChat);
-closeBtn.addEventListener('click', toggleChat);
-loadModelBtn.addEventListener('click', initSystem);
-sendBtn.addEventListener('click', handleUserMessage);
-inputField.addEventListener('keypress', (e) => {
+chatBubbleBtn?.addEventListener('click', toggleChat);
+closeBtn?.addEventListener('click', toggleChat);
+loadModelBtn?.addEventListener('click', initSystem);
+sendBtn?.addEventListener('click', handleUserMessage);
+inputField?.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') handleUserMessage();
 });
 

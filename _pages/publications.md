@@ -2,17 +2,20 @@
 title: "Publications"
 permalink: /publications/
 layout: single
-classes: wide
+classes: wide publications-layout
 ---
 
 <div class="publications-page">
-  <div class="publication-filter">
-    <label for="publication-filter"><strong>Filter by:</strong></label>
-    <select id="publication-filter">
-      {% for filter in site.data.publications.filters %}
-        <option value="{{ filter.id }}">{{ filter.label }}</option>
-      {% endfor %}
-    </select>
+  <div class="publications-toolbar">
+    <h1 class="page__title publications-toolbar__title">Publications</h1>
+    <div class="publication-filter">
+      <label for="publication-filter"><strong>Filter by:</strong></label>
+      <select id="publication-filter">
+        {% for filter in site.data.publications.filters %}
+          <option value="{{ filter.id }}">{{ filter.label }}</option>
+        {% endfor %}
+      </select>
+    </div>
   </div>
 
   {% for section in site.data.publications.sections %}
