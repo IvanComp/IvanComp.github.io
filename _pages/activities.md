@@ -11,8 +11,33 @@ redirect_from:
 <div class="activities-page">
   <section class="activity-section">
     <h2>Organizing Committee</h2>
+    <h3>Conference</h3>
     <ul class="activity-list">
-      {% for item in site.data.activities.organizing_committee %}
+      {% for item in site.data.activities.organizing_committee.conference %}
+        <li class="activity-item">
+          <span class="activity-item__text">
+            <span class="activity-item__title">{{ item.title }}</span>
+            {% if item.short_name %}
+              <span class="activity-item__label">({{ item.short_name }})</span>
+            {% endif %}
+            <span class="activity-item__venue">{{ item.venue }}</span>
+            {% if item.url %}
+              <a class="activity-item__link" href="{{ item.url }}" target="_blank" rel="noopener">Link</a>
+            {% endif %}
+            {% if item.role %}
+              <span class="activity-item__organizers">{{ item.role }}</span>
+            {% endif %}
+            {% if item.co_organizers %}
+              <span class="activity-item__organizers">Co-organizers: {{ item.co_organizers | replace: "Ivan Compagnucci", "<strong>Ivan Compagnucci</strong>" }}</span>
+            {% endif %}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h3>Workshop</h3>
+    <ul class="activity-list">
+      {% for item in site.data.activities.organizing_committee.workshop %}
         <li class="activity-item">
           <span class="activity-item__text">
             <span class="activity-item__title">{{ item.title }}</span>
