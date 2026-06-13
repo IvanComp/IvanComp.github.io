@@ -31,7 +31,7 @@ program_committee:
       venue: "IEEE Smart World Congress 2026"
       url: "https://swc-ieee-2026.github.io/digitaltwin/"
   workshop:
-    - title: "4th IEEE International Workshop on Reliable and Secure AI for Software Engineering"
+    - title: "4th International Workshop on Reliable and Secure AI for Software Engineering"
       short_name: "ReSAISE"
       venue: "ISSRE'26"
       url: "https://resaise.github.io/2026"
