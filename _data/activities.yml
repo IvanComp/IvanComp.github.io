@@ -22,6 +22,10 @@ organizing_committee:
 
 program_committee:
   conference:
+    - title: "Tools & Demos Track"
+      short_name: "CBI & EDOC"
+      venue: "CBI & EDOC'26"
+      url: "https://conf.researchr.org/track/edoc-2026/cbi-edoc-2026-tools---demos"
     - title: "21st International Conference on Software Engineering Advances"
       short_name: "ICSEA"
       venue: "SoftNet'26"

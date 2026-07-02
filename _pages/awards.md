@@ -22,31 +22,20 @@ redirect_from:
           <dt>Paper</dt>
           <dd>BPMN Inspector: A Tool for Extracting Features from BPMN Models</dd>
         </div>
-        <div>
-          <dt>Recognition</dt>
-          <dd>Best Paper Award of the Demonstrations and Resources Forum</dd>
-        </div>
-        <div>
-          <dt>Mention</dt>
-          <dd>Noted for its potential impact on BPM practitioners and educators.</dd>
-        </div>
       </dl>
 
       <div class="award-feature__links">
         <a href="https://bpm-conference.org/awards/" target="_blank" rel="noopener">BPM Awards</a>
         <a href="https://bpm-conference.org/assets/docs/newsletter/BPM-newsletter-2023-11.pdf" target="_blank" rel="noopener">BPM Newsletter</a>
-        <a href="{{ '/files/awards/2023/BPM23AwardCertificate.pdf' | relative_url }}" target="_blank" rel="noopener">Certificate</a>
       </div>
     </div>
 
     <div class="award-feature__media" aria-label="BPMN Inspector award images">
       <figure>
         <img src="{{ '/files/awards/2023/bpmnaward.jpeg' | relative_url }}" alt="BPMN Inspector Best Paper Award at BPM 2023">
-        <figcaption>Award ceremony</figcaption>
       </figure>
       <figure>
-        <img src="{{ '/files/awards/2023/BPM23AwardCertificate.jpg' | relative_url }}" alt="BPM 2023 Best Paper Award certificate">
-        <figcaption>Award certificate</figcaption>
+        <img src="{{ '/files/awards/2023/BPM23AwardCertificate.jpg' | relative_url }}" alt="BPM 2023 Best Paper Award">
       </figure>
     </div>
   </article>
