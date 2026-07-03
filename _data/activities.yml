@@ -22,6 +22,10 @@ organizing_committee:
 
 program_committee:
   conference:
+    - title: "International Conference on Software Architecture"
+      short_name: "ICSA"
+      venue: "ICSA'27"
+      url: "https://conf.researchr.org/home/icsa-2027"
     - title: "Tools & Demos Track"
       short_name: "CBI & EDOC"
       venue: "CBI & EDOC'26"
@@ -35,6 +39,10 @@ program_committee:
       venue: "IEEE Smart World Congress 2026"
       url: "https://swc-ieee-2026.github.io/digitaltwin/"
   workshop:
+    - title: "2nd IEEE Big Data International Workshop on Software Engineering for Agentic AI"
+      short_name: "SE4AgenticAI"
+      venue: "IEEE BigData'26"
+      url: "https://wi-lab.com/cyberchair/2026/bigdata26/index.php"
     - title: "4th International Workshop on Reliable and Secure AI for Software Engineering"
       short_name: "ReSAISE"
       venue: "ISSRE'26"
