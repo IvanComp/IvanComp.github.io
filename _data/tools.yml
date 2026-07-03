@@ -3,12 +3,17 @@ sections:
     theme: "business"
     items:
       - name: "BPMN Inspector"
+        summary: "Inspection and quantitative analysis for BPMN model collections."
         image: "/assets/images/tools/BPMNInspector.png"
         image_alt: "BPMN Inspector"
         status_label: "v1.0.0 Stable"
         status_type: "stable"
         highlight: "Best Paper Award"
+        highlight_url: "/awards/"
         description: "A web application designed to streamline the inspection process of BPMN models."
+        year: "2023"
+        availability: "Open source"
+        domain: "Business Process Management"
         tags:
           - "BPMN"
           - "Quantitative Analysis"
@@ -23,11 +28,15 @@ sections:
     theme: "performance"
     items:
       - name: "AP4Fed"
+        summary: "Architectural patterns and monitoring support for federated learning systems."
         image: "/assets/images/tools/AP4FED.svg"
         image_alt: "AP4Fed"
         status_label: "v1.0.0 Stable"
         status_type: "stable"
         description: "A Federated Learning platform built on top of Flower with advanced design capabilities."
+        year: "2024"
+        availability: "Open source"
+        domain: "Performance Analysis"
         tags:
           - "Performance Analysis"
           - "Architectural Patterns"
@@ -41,5 +50,4 @@ sections:
       - name: "Developing New Things..."
         image: "/assets/images/tools/develop.gif"
         image_alt: "Developing new tools"
-        description: "New tools and experimental prototypes will appear here."
         placeholder: true
