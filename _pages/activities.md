@@ -72,6 +72,9 @@ redirect_from:
             {% if item.url %}
               <a class="activity-item__link" href="{{ item.url }}" target="_blank" rel="noopener">Link</a>
             {% endif %}
+            {% if item.role %}
+              <span class="activity-item__organizers">{{ item.role }}</span>
+            {% endif %}
             {% if item.co_organizers %}
               <span class="activity-item__organizers">Co-organizers: {{ item.co_organizers | replace: "Ivan Compagnucci", "<strong>Ivan Compagnucci</strong>" }}</span>
             {% endif %}
