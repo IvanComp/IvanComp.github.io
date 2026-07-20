@@ -11,6 +11,8 @@ filters:
     label: "Data and Artifacts"
 
 sections:
+  # Conference and workshop entries can optionally define `slides_url`.
+  # The publications template deliberately ignores this field for journals.
   - id: "journals"
     title: "Journals"
     icon: "journal"

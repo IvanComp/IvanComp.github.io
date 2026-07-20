@@ -19,11 +19,19 @@ classes: wide publications-layout
   </div>
 
   {% for section in site.data.publications.sections %}
+    {% assign slides_enabled = false %}
+    {% if section.id == 'conferences' or section.id == 'workshops' %}
+      {% assign slides_enabled = true %}
+    {% endif %}
     <section class="publication-section" data-category="{{ section.id }}">
       <h2>{{ section.title }}</h2>
 
       <ul class="publication-list">
         {% for entry in section.entries %}
+          {% assign has_slides = false %}
+          {% if slides_enabled and entry.slides_url and entry.slides_url != blank %}
+            {% assign has_slides = true %}
+          {% endif %}
           <li class="publication-item{% if entry.image %} publication-item--with-image{% endif %}">
             {% if entry.image %}
               <img
@@ -40,18 +48,28 @@ classes: wide publications-layout
                 {{ entry.citation | markdownify | remove: '<p>' | remove: '</p>' }}
               </span>
 
-              {% if entry.links %}
+              {% if entry.links or has_slides %}
                 <span class="publication-item__links">
-                  {% for link in entry.links %}
-                    {% if link.url and link.url != blank %}
-                      {% if link.url contains '://' %}
-                        {% assign href = link.url %}
-                      {% else %}
-                        {% assign href = link.url | relative_url %}
+                  {% if entry.links %}
+                    {% for link in entry.links %}
+                      {% if link.url and link.url != blank %}
+                        {% if link.url contains '://' %}
+                          {% assign href = link.url %}
+                        {% else %}
+                          {% assign href = link.url | relative_url %}
+                        {% endif %}
+                        <a class="publication-item__link" href="{{ href }}"{% if link.new_tab %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>
                       {% endif %}
-                      <a class="publication-item__link" href="{{ href }}"{% if link.new_tab %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>
+                    {% endfor %}
+                  {% endif %}
+                  {% if has_slides %}
+                    {% if entry.slides_url contains '://' %}
+                      {% assign slides_href = entry.slides_url %}
+                    {% else %}
+                      {% assign slides_href = entry.slides_url | relative_url %}
                     {% endif %}
-                  {% endfor %}
+                    <a class="publication-item__link publication-item__link--slides" href="{{ slides_href }}" target="_blank" rel="noopener">Slide</a>
+                  {% endif %}
                 </span>
               {% endif %}
 
