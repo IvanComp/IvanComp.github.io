@@ -95,19 +95,6 @@ sections:
     icon: "conference"
     entries:
       - citation: >-
-          Kurkchi, Y., **Compagnucci, I.**, & Trubiani, C. (2026).
-          **Understanding the Concepts behind Ethics in Designing
-          Cyber-Physical Systems**. In *19th International Conference on the
-          Quality of Information and Communications Technology (QUATIC 2026)*.
-          Genoa, Italy, 9-11 September 2026.
-        links:
-          - label: "Link"
-            url: ""
-            new_tab: true
-          - label: "Pre-Print"
-            url: ""
-            new_tab: true
-      - citation: >-
           Silvetti, S., **Compagnucci, I.**, Cairoli, F., Trubiani, C., &
           Nenzi, L. (2026). **Time Robustness for Point-Based Semantics of
           Metric Interval Temporal Logic**. In *23rd International Conference on
@@ -155,6 +142,19 @@ sections:
     title: "Workshops and Other Venues"
     icon: "conference"
     entries:
+      - citation: >-
+          Kurkchi, Y., **Compagnucci, I.**, & Trubiani, C. (2026).
+          **Understanding the Concepts behind Ethics in Designing
+          Cyber-Physical Systems**. In *19th International Conference on the
+          Quality of Information and Communications Technology (QUATIC 2026)*.
+          Genoa, Italy, 9-11 September 2026.
+        links:
+          - label: "Link"
+            url: ""
+            new_tab: true
+          - label: "Pre-Print"
+            url: ""
+            new_tab: true
       - citation: >-
           **Compagnucci, I.**, & Trubiani, C. (2025). **Towards AI Agents for
           Selecting Architectural Patterns in Federated Learning Systems**.
