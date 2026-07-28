@@ -11,8 +11,6 @@ filters:
     label: "Data and Artifacts"
 
 sections:
-  # Conference and workshop entries can optionally define `slides_url`.
-  # The publications template deliberately ignores this field for journals.
   - id: "journals"
     title: "Journals"
     icon: "journal"
@@ -150,10 +148,10 @@ sections:
           Genoa, Italy, 9-11 September 2026.
         links:
           - label: "Link"
-            url: ""
+            url: " "
             new_tab: true
           - label: "Pre-Print"
-            url: ""
+            url: " "
             new_tab: true
       - citation: >-
           **Compagnucci, I.**, & Trubiani, C. (2025). **Towards AI Agents for
