@@ -118,6 +118,7 @@ sections:
           - label: "Pre-Print"
             url: "/assets/file/SEAMS26.pdf"
             new_tab: true
+        slides_url: "/assets/file/SEAMS26-Slides.pdf"
       - citation: >-
           **Compagnucci, I.**, Pinciroli, R., & Trubiani, C. (2025).
           **Performance Analysis of Architectural Patterns for Federated Learning
@@ -130,6 +131,7 @@ sections:
           - label: "Pre-Print"
             url: "/assets/file/FL.pdf"
             new_tab: true
+        slides_url: "/assets/file/ICSA25-Slides.pdf"
         badges:
           - image: "/assets/images/ORO.png"
             alt: "Open Research Object badge"
@@ -148,10 +150,10 @@ sections:
           Genoa, Italy, 9-11 September 2026.
         links:
           - label: "Link"
-            url: " "
+            url: "https://2026.quatic.org/"
             new_tab: true
           - label: "Pre-Print"
-            url: " "
+            url: "/assets/file/QUATIC26.pdf"
             new_tab: true
       - citation: >-
           **Compagnucci, I.**, & Trubiani, C. (2025). **Towards AI Agents for
