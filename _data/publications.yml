@@ -105,6 +105,7 @@ sections:
           - label: "Pre-Print"
             url: "/assets/file/KR.pdf"
             new_tab: true
+        slides_url: "/assets/file/KR2026.pdf"
       - citation: >-
           Baresi, L., **Compagnucci, I.**, Lestingi, L., & Trubiani, C. (2026).
           **Adaptive Toggling of Architectural Patterns for Federated Learning**.
