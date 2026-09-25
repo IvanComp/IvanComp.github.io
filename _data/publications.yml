@@ -156,6 +156,7 @@ sections:
           - label: "Pre-Print"
             url: "/assets/file/QUATIC26.pdf"
             new_tab: true
+        slides_url: "/assets/file/QUATIC26-Slides.pdf"
       - citation: >-
           **Compagnucci, I.**, & Trubiani, C. (2025). **Towards AI Agents for
           Selecting Architectural Patterns in Federated Learning Systems**.
