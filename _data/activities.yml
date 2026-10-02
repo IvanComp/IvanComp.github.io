@@ -1,7 +1,7 @@
 organizing_committee:
   conference:
-    - title: "International Symposium DATAMOD: From Data to Models and Back"
-      short_name: "DATAMOD"
+    - title: "International Symposium DataMod: From Data to Models and Back"
+      short_name: "DataMod"
       venue: "SEFM'26"
       url: "https://datamod-symposium.github.io/DataMod-2026/"
       role: "Program Co-Chair: Ivan Compagnucci, Silvia Giulia Galfrè, Paolo Milazzo."
@@ -32,6 +32,10 @@ program_committee:
       short_name: "SANER"
       venue: "SANER'27"
       url: "https://conf.researchr.org/home/saner-2027"
+    - title: "International Conference on Software Analysis, Evolution and Reengineering"
+      short_name: "ISSRE"
+      venue: "ISSRE'27"
+      url: "https://conf.researchr.org/home/issre-2027"
 #    - title: "21st International Conference on Software Engineering Advances"
 #      short_name: "ICSEA"
 #      venue: "SoftNet'26"
