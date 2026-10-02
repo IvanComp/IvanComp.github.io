@@ -32,7 +32,7 @@ program_committee:
       short_name: "SANER"
       venue: "SANER'27"
       url: "https://conf.researchr.org/home/saner-2027"
-    - title: "International Conference on Software Analysis, Evolution and Reengineering"
+    - title: "International Symposium on Software Reliability Engineering"
       short_name: "ISSRE"
       venue: "ISSRE'27"
       url: "https://conf.researchr.org/home/issre-2027"
