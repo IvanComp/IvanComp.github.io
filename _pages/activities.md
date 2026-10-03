@@ -35,6 +35,30 @@ redirect_from:
       {% endfor %}
     </ul>
 
+    <h3>Special Issue</h3>
+    <ul class="activity-list">
+      {% for item in site.data.activities.organizing_committee.special_issue %}
+        <li class="activity-item activity-item--special-issue">
+          <span class="activity-item__text">
+            <span class="activity-item__title">{{ item.title }}</span>
+            {% if item.short_name %}
+              <span class="activity-item__label">({{ item.short_name }})</span>
+            {% endif %}
+            <span class="activity-item__venue">{{ item.venue }}</span>
+            {% if item.url %}
+              <a class="activity-item__link" href="{{ item.url }}" target="_blank" rel="noopener">Link</a>
+            {% endif %}
+            {% if item.status %}
+              <span class="activity-item__label">({{ item.status }})</span>
+            {% endif %}
+            {% if item.guest_editors %}
+              <span class="activity-item__organizers">Guest editors: {{ item.guest_editors | replace: "Ivan Compagnucci", "<strong>Ivan Compagnucci</strong>" }}</span>
+            {% endif %}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+
     <h3>Workshop</h3>
     <ul class="activity-list">
       {% for item in site.data.activities.organizing_committee.workshop %}

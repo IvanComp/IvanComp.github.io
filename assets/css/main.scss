@@ -198,6 +198,13 @@
   display: block;
 }
 
+.activity-item--special-issue .activity-item__title {
+  flex-basis: 100%;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+
 .activity-item__text {
   display: flex;
   align-items: baseline;
