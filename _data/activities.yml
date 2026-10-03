@@ -5,6 +5,12 @@ organizing_committee:
       venue: "SEFM'26"
       url: "https://datamod-symposium.github.io/DataMod-2026/"
       role: "Program Co-Chair: Ivan Compagnucci, Silvia Giulia Galfrè, Paolo Milazzo."
+  special issue:
+    - title: "Innovations in Software Architecture using Agentic AI: Design, Evaluation, and Runtime Solutions"
+      short_name: "Information and Software Technology"
+      venue: "IST"
+      url: "To Appear"
+      role: "Rodrigo Falcão, Rafael Capilla, Frank Elberzhager, Pablo Oliveira Antonino and Ivan Compagnucci"
   workshop:
     - title: "3rd International Workshop on Software Architecture and Generative AI"
       short_name: "SAGAI"
