@@ -7,6 +7,7 @@ organizing_committee:
       role: "Program Co-Chair: Ivan Compagnucci, Silvia Giulia Galfrè, Paolo Milazzo."
   special_issue:
     - title: ""Innovations in Software Architecture using Agentic AI: Design, Evaluation, and Runtime Solutions""
+      short_name: "VSI:Innov. in SA using Ag. AI"
       venue: "Information and Software Technology"
       status: "To appear"
       guest_editors: "Rodrigo Falcão, Rafael Capilla, Frank Elberzhager, Pablo Oliveira Antonino and Ivan Compagnucci"
