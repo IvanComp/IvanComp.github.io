@@ -135,7 +135,9 @@ redirect_from:
       {% for item in site.data.activities.journal_reviews %}
         <li class="activity-item activity-item--review">
           <span class="activity-item__text">
-            <span class="review-pill review-pill--{{ item.quartile | downcase }}">{{ item.quartile }}</span>
+            {% if item.quartile %}
+              <span class="review-pill review-pill--{{ item.quartile | downcase }}">{{ item.quartile }}</span>
+            {% endif %}
             <a class="activity-item__journal" href="{{ item.url }}" target="_blank" rel="noopener"><strong>{{ item.journal }}</strong></a>
           </span>
         </li>

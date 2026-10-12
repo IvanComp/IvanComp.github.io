@@ -6,7 +6,7 @@ organizing_committee:
       url: "https://datamod-symposium.github.io/DataMod-2026/"
       role: "Program Co-Chair: Ivan Compagnucci, Silvia Giulia Galfrè, Paolo Milazzo."
   special_issue:
-    - title: ""Innovations in Software Architecture using Agentic AI: Design, Evaluation, and Runtime Solutions""
+    - title: '"Innovations in Software Architecture using Agentic AI: Design, Evaluation, and Runtime Solutions"'
       short_name: "VSI:Innov. in SA using Ag. AI"
       venue: "Information and Software Technology"
       status: "To appear"
@@ -95,7 +95,7 @@ journal_reviews:
     url: "https://www.sciencedirect.com/journal/future-generation-computer-systems"
   - journal: "Information and Software Technology"
     url: "https://www.sciencedirect.com/journal/information-and-software-technology"
-  - journal: "Software and Systems Modeling"
+  - journal: "Software and Systems Modeling (SoSyM)"
     url: "https://link.springer.com/journal/10270"
   - journal: "Information Fusion"
     url: "https://www.sciencedirect.com/journal/information-fusion"
